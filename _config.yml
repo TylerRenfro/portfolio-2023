@@ -1,12 +1,21 @@
 url: ''
 baseurl: ''
-title: 'Jekyllwind'
+title: 'Tyler Renfro'
+jobTitle: 'UX Design'
 
 plugins:
   - jekyll-postcss
 
 postcss:
   cache: false
+
+collections:
+  portfolio:
+    order:
+      - stl-metro.md
+      - payright.md
+      - green-dining-finder.md
+      - lockton.md
 
 exclude:
   - package.json
