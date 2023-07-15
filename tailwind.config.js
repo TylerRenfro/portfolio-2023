@@ -8,9 +8,15 @@ module.exports = {
     './*.html',
   ],
   theme: {
-    theme: {
-      extend: {},
+    fontFamily: {
+      'sans': ['"Work Sans"'],
+      'display': ['"Work Sans"'],
+      'body': ['"Work Sans"']
     },
   },
-  plugins: []
+  plugins: [require("daisyui")],
+  daisyui: {
+    themes: ['light', 'dark'],
+    
+  },
 }
