@@ -5,28 +5,19 @@ introLineOne: UX Designer
 introLineTwo: Typeface fanatic
 introLineThree: Usability nerd
 --- 
-<div class="grid grid-cols-12 gap-4 mb-10">
-    <div class="col-start-2 col-span-10">
-        <div class="navbar py-10">
-            <a class="normal-case text-xl flex flex-col items-start" href="{{site.url}}">
-                <p class="text-left font-semibold dark:text-white">{{site.title}}</p>
-                <p class="text-left font-light">{{site.jobTitle}}</p>
-            </a>
-        </div>
-    </div>
-</div>
-<div class="container mx-auto px-4">
-  <div class="grid grid-cols-12 gap-4 mb-20 flex-wrap items-center">
+<div class="container mx-auto px-4"> 
+  {% include navbar.html %}
+  <div class="grid grid-cols-12 gap-4 mb-10 md:mb-20 flex-wrap items-center">
     <div class="col-span-12 md:col-start-3 md:col-span-3">
-      <img class="w-full" src="images/homepage/headshot.jpg">
+      <img class="w-96 md:w-full rounded-2xl" src="images/homepage/headshot.jpg">
     </div>
     <div class="col-span-12 md:col-span-5">
-      <h1 class="text-2xl md:text-3xl lg:text-5xl md:text-right font-semibold dark:text-white leading-normal mb-3">{{ page.introLineOne }}</h1>
-      <h1 class="text-2xl md:text-3xl lg:text-5xl md:text-right font-medium leading-normal mb-3 text-zinc-600 dark:text-zinc-400">
+      <h1 class="text-2xl md:text-3xl lg:text-5xl text-left md:text-right font-bold dark:text-white leading-normal md:mb-3">{{ page.introLineOne }}</h1>
+      <h1 class="text-2xl md:text-3xl lg:text-5xl text-left md:text-right font-medium leading-normal md:mb-3 text-zinc-600 dark:text-zinc-400">
       {{ page.introLineTwo }}
       </h1>
-      <h1 class="text-2xl md:text-3xl lg:text-5xl md:text-right font-light text-zinc-500 dark:text-zinc-500 leading-normal mb-10">{{ page.introLineThree }}</h1>
-      <p class="text-xs md:text-sm md:text-right text-indigo-500 dark:text-indigo-400 font-medium">Currently leading <a class ="transition underline-offset-4 ease-in-out hover:underline hover:text-fuchsia-400" target="_blank" href="{{page.currentJobURL}}">@PRTH</a></p>      
+      <h1 class="text-2xl md:text-3xl lg:text-5xl text-left md:text-right font-light text-zinc-500 dark:text-zinc-500 leading-normal mb-5 md:mb-10">{{ page.introLineThree }}</h1>
+      <p class="text-xs md:text-sm text-left md:text-right text-indigo-500 dark:text-indigo-400 font-medium">Currently leading <a class ="transition underline-offset-4 ease-in-out hover:underline hover:text-fuchsia-400" target="_blank" href="{{page.currentJobURL}}">@PRTH</a></p>      
     </div>
   </div>
   {% for portfolio in site.portfolio %}
@@ -41,7 +32,7 @@ introLineThree: Usability nerd
               </p>
           </a>
         </div>
-        <figure><img class="w-3/4" src="/images/homepage/{{ portfolio.thumbnail }}" alt="Shoes" /></figure>
+        <figure><img class="w-96 md:w-5/6 md:px-5" src="/images/homepage/{{ portfolio.thumbnail }}" alt="Shoes" /></figure>
       </div>
     </div>
   </div>
