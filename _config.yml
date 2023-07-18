@@ -16,6 +16,12 @@ collections:
       - payright.md
       - green-dining-finder.md
       - lockton.md
+  written-comm:
+    order:
+      - apple-pay.md
+      - heuristic-analysis.md
+      - ux-plan.md
+
 
 exclude:
   - package.json
