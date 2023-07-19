@@ -1,49 +1,20 @@
 ---
 layout: written-comm-single
 permalink: /apple-pay/
-title: "Apple Pay"
-description: "Making public transportation in St. Louis easy and accessible."
-caption: "2022 | STL Metro"
+title: "Payment Products: Supporting Apple Pay"
+summary: "Proposal to the development and product teams on how we might approach supporting Apple Pay on invoices."
+caption: "Priority | 2022"
 border-fill: "fill-red-500 dark:fill-red-400"
 ---
-<div class="grid grid-cols-12 gap-4 mb-10">
-    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <div class="self-center h-full flex">
-            <img class="w-full self-center" src="/images/stl-metro/portfolio-single-1.jpg">
-        </div>        
-    </div>
-</div>
-<div class="grid grid-cols-12 gap-4 my-20">
+<div class="grid grid-cols-12 gap-4 my-10">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
-        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>        
-        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Empathy for poor experiences</h1>
-        <ul class="list-disc list-inside text-md md:text-xl mb-5">
-            <li class="leading-loose">Legacy systems</li>
-            <li class="leading-loose">Overwhelming schedule</li>
-            <li class="leading-loose">Difficult to use trip planner</li>
-        </ul>
-        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>        
-    </div>
-</div>    
-<div class="grid grid-cols-12 gap-4 mb-5">
-    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <img class="w-full self-center" src="/images/stl-metro/trip-planner.png">
+        <p class="text-lg md:text-xl mb-20 font-medium pl-7 border-l-4 border-red-600 dark:border-red-400"><span class="font-semibold text-red-600 dark:text-red-400">Summary:</span> {{ page.summary }}</p>
+        {%- assign written-comm = site.written-comm | where: 'title', 'Apple Pay' -%}
+        {% for written-comm in written-comm %}            
+            <div>
+                {{ written-comm.content }}
+            </div>            
+        {% endfor %}
+        
     </div>
 </div>
-<div class="grid grid-cols-12 gap-4 mb-10">
-    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <img class="w-full self-center" src="/images/stl-metro/schedule.jpg">
-    </div>
-</div>
-<div class="grid grid-cols-12 gap-4 my-20">
-    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
-        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Map it out</h1>
-        <p class="mb-10 leading-relaxed text-md md:text-xl">It could be assumed that the reason the St. Louis Metrolink is so frustrating for new users is that it’s a complex system that hasn’t been properly simplified.</p>
-        <p class="mb-10 leading-relaxed text-md md:text-xl">By using the St. Louis Metrolink regularly and taking advantage of public information, I was able to empathize with user needs, breadboard the experience, and then plan a workflow for a mobile app..</p>
-    </div>
-</div> 
-<div class="grid grid-cols-12 gap-4 mb-10">
-    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <img class="w-full self-center" src="/images/stl-metro/empathy-map.jpg">
-    </div>
-</div>   
