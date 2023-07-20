@@ -56,7 +56,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -73,7 +73,7 @@ Some subtext communicating the restaurant hours and status in close proximity of
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-2.jpg "an image title"){:.w-full .mb-10}
 
-{:.bg-green-100 .p-2 .font-medium .mb-5 .text-green-900}
+{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-10}
@@ -99,7 +99,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -114,7 +114,7 @@ Suggestion
 {:.text-xl .mb-10}
 Change the name of the service from “Group Dining” to “Catering”. This is an easy fix, but it also makes the service consistent. There is another area on the site that does refer to it as catering. This change would accurately communicate what it is and make it consistent across the website.
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -145,7 +145,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -161,7 +161,7 @@ If it’s possible, replicating the main navigation of the website onto the rese
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-2.jpg "an image title"){:.mb-10 .w-full}
 
-{:.bg-green-100 .p-2 .font-medium .mb-5 .text-green-900}
+{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-10}
@@ -186,7 +186,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -203,7 +203,7 @@ Suggestion
 {:.text-xl .mb-10}
 Invest in the software. Texas de Brazil likely has little to no control over much of the third-party services they rely on. The only way to get around this would be to build and leverage their online apps and technology.
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -246,7 +246,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -280,7 +280,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -306,7 +306,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -332,7 +332,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -362,7 +362,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-green-100 .p-2 .font-medium .mb-5 .text-green-900} 
+{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-5}
@@ -385,7 +385,7 @@ ___
 {:.uppercase .tracking-widest .mb-5 .text-sm}
 Findings
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -399,7 +399,7 @@ Make the allergy and nutrition tool more prominent on the menu page. Additionall
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.bg-red-100 .p-2 .font-medium .mb-5 .text-red-900} 
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
