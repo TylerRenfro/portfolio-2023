@@ -50,6 +50,25 @@ usabilityTasks:
       number: 4
     - name: "You have been assigned with onboarding Service in Bloom.  Manually add the new provider account and input their information using the new Payright Web Portal"
       number: 5
+followupSurvey:
+  - question: How did you feel about using the software used today for onboarding Payright accounts?
+    response1: "A breath of fresh air. It showed we what could be. I thought it was easy to use, a great flow and easy way to document all the information needed."
+    response2: "After learning where things were located initially, it felt very comfortable to use. Everything I tested was located in places that made sense and had a good flow to them." 
+    response3: "It was very user friendly."
+    response4: "It looks great. It was intimidating that I had to manage it myself, while being recorded, without having seen it beforehand."
+    response5: "It seemed good but would feel better using it more to give a more detailed answer."
+  - question: How confident do you feel about the tools used today being a replacement for current onboarding processes?
+    response1: "I am extremely confident. Just the idea of being able to invite our customers to add/edit their own information is a huge benefit. It would put some responsibility onto the customer which would cause less errors and more visibility."
+    response2: "Although it is still early in the development process, I feel confident that these tools will be a huge help in replacing our current system."
+    response3: "Very confident. It walks you through step by step."
+    response4: "Good. It seems very easy to use."
+    response5: "I would feel more confident If I could use the tools more before I could say if it would be better than what we have right now. As a whole and only using it once is does seem good."
+  - question: How would having access to this software impact your day-to-day responsibilities?
+    response1: "Currently things are extremely drawn out. Because the potential new software has everything stored in one place and we allow the customer to edit information, it would allow us to onboard a provider, clients and caregivers quicker. This means we could onboard more customers in the time it takes to currently onboard one. This would help PayRight be able to grow."
+    response2: "It is difficult to say this early on in the development, as the initial pieces being developed don't cover any of my job responsibilities. However I do believe that once completed, this will have a large impact on my day-to-day routine, and will save me a lot of time doing manual processes that should be automated."
+    response3: "Frees up some time. Not as much clicking around."
+    response4: "It will greatly improve my day to day activities. Currently we are working with a dinosaur system, so hopefully this will bring us improvements that will make us more competetive."
+    response5: "It should make it easier if we only have to enter things once into the system and not to enter again into CPX. It could cut down time."
 ---
 {:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white}
 ## Overview
@@ -312,55 +331,31 @@ Unable to share to respect participant policy and NDA agreements, but the sessio
 {% endfor %}
 </div>
 
+{:.mb-10 .dark:border-base-100}
+___
+
+
+{:.mb-5 .text-2xl .dark:text-white .leading-normal}
+Foillowup Survey
 
 {:.text-xl .mb-10}
-A breath of fresh air. It showed we what could be. I thought it was easy to use, a great flow and easy way to document all the information needed.
+Unable to share to respect participant policy and NDA agreements, but the sessions were recorded and documented.
 
 <div>
-  {% for participant in page.participants %}            
+  {% for followupSurvey in page.followupSurvey %}            
   <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20">
     <div class="card-body">
-    <p class="mb-5 text-2xl dark:text-white leading-normal">"{{ participant.ratingAnswer }}"</p>
-    <p class="text-xl mb-10 basis-1/2">"{{ participant.ratingAnswer }}"</p>
-      <p class="uppercase tracking-widest mb-5 text-sm text-zinc-500">5 Participants</p>
-      <hr class="mb-10 dark:border-base-100">
-      <div class="flex flex-col md:flex-row gap-4 mb-5">
-        <p class="text-md w-full md:w-1/2 text-zinc-500">How confident are you in […]'s capabilities to support many new provider locations and accounts?</p>
-        <div class="flex flex-row text-md basis-full md:basis-1/2 items-center gap-2">
-          <div>
-            <p class="text-md pt-1">{{ participant.additionalAnswer1 }}</p>
-          </div>
-          {% if participant.additionalAnswer1 == "1/5" %}
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-          {% endif %}
-          {% if participant.additionalAnswer1 == "2/5" %}
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-          {% endif %}
-          {% if participant.additionalAnswer1 == "3/5" %}
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-          {% endif %}
-          {% if participant.additionalAnswer1 == "4/5" %}
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-          {% endif %}
-          {% if participant.additionalAnswer1 == "5/5" %}
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-            <svg class="w-6 h-6 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m323-205 157-94 157 95-42-178 138-120-182-16-71-168-71 167-182 16 138 120-42 178ZM233-80l65-281L80-550l288-25 112-265 112 265 288 25-218 189 65 281-247-149L233-80Zm247-355Z"/></svg>
-          {% endif %}          
-        </div>
-      </div>
-      <div class="flex flex-col md:flex-row gap-4">
-        <p class="text-md basis-full md:basis-1/2 text-zinc-500">Tell us more about why you chose that rating.</p>
-        <p class="text-md basis-full md:basis-1/2">{{ participant.additionalAnswer2 }}</p>
-      </div>
+      <p class="text-2xl basis-1/2 dark:text-white mb-3">{{ followupSurvey.question }}</p>
+      <p class="uppercase tracking-widest mb-10 text-sm text-zinc-500">5 Responses</p>
+      <p class="text-md w-full text-zinc-500 mb-5">{{ followupSurvey.response1 }}</p>
+      <hr class="mb-5 dark:border-base-100">
+      <p class="text-md w-full text-zinc-500 mb-5">{{ followupSurvey.response2 }}</p>
+      <hr class="mb-5 dark:border-base-100">
+      <p class="text-md w-full text-zinc-500 mb-5">{{ followupSurvey.response3 }}</p>
+      <hr class="mb-5 dark:border-base-100">
+      <p class="text-md w-full text-zinc-500 mb-5">{{ followupSurvey.response4 }}</p>
+      <hr class="mb-5 dark:border-base-100">
+      <p class="text-md w-full text-zinc-500 mb-5">{{ followupSurvey.response5 }}</p>
     </div>  
   </div>
   {% endfor %}
