@@ -4,59 +4,53 @@ name: "Heuristic Evaluation: Texas De Brazil"
 URL: './heuristic-evaluation'
 thumbnail: "texas-de-brazil-thumbnail.jpg"
 ---
-{:.mb-20}
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/texas-de-brazil-thumbnail.jpg "an image title"){:.w-full}
-
 {:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white}
 ## Overview
 
 {:.text-xl .mb-10}
 The following document is a heuristic evaluation of texasdebrazil.com, a website that allows users to make reservations, order delivery/pickup, browse menu options, and find locations. The analysis includes an evaluation of the Nielson 10 usability heuristics of interface design.
 
-{:.text-xl .md:text-2xl .mb-5 .dark:text-white .font-semibold}
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Usability principles evaluated:
 
-{:.list-decimal .list-inside .leading-relaxed .text-xl .mb-10}
-- {: .mb-3 .text-xl } Visibility of System Status
-- {: .mb-3 .text-xl } Match Between the System & the Real World
-- {: .mb-3 .text-xl } User Control & Freedom
-- {: .mb-3 .text-xl } Maintain Consistency & Adhere to Standards
-- {: .mb-3 .text-xl } Error Prevention
-- {: .mb-3 .text-xl } Recognition Rather than Recall
-- {: .mb-3 .text-xl } Flexibility & Efficiency of Use
-- {: .mb-3 .text-xl } Aesthetic & Minimalist Design
-- {: .mb-3 .text-xl } Help & Documentation
-- {: .mb-3 .text-xl } Help Users Recognize, Diagnose, & Recover from Errors
-
-{:.mb-10}
-___
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- {: .mb-2 } Visibility of System Status
+- {: .mb-2 } Match Between the System & the Real World
+- {: .mb-2 } User Control & Freedom
+- {: .mb-2 } Maintain Consistency & Adhere to Standards
+- {: .mb-2 } Error Prevention
+- {: .mb-2 } Recognition Rather than Recall
+- {: .mb-2 } Flexibility & Efficiency of Use
+- {: .mb-2 } Aesthetic & Minimalist Design
+- {: .mb-2 } Help & Documentation
+- {: .mb-2 } Help Users Recognize, Diagnose, & Recover from Errors
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white}
 ## Tasks
 
-{:.text-xl .mb-10}
+{:.text-xl .mb-5}
 To help discover where the usability heuristics overlap with the user’s journey, I performed some tasks that I thought users may wish to do on the website. While performing these tasks, I took notes and outlined usability heuristic successes and failures along with possible solutions.
 
-{:.list-decimal .list-inside .mb-20}
-- {: .mb-3 .text-xl } Make a reservation at the Denver location for two guests, this Saturday @ 7:00 pm.
-- {: .mb-3 .text-xl } Submit an online order of any menu item for delivery.
-- {: .mb-3 .text-xl } Find one vegetarian menu item and another that is gluten-free.
-- {: .mb-3 .text-xl } Find the location nearest to you and contact them and ask them about business hours.
-- {: .mb-3 .text-xl } Sign up to the mailing list to start getting exclusive deals and offers.
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-20 .opacity-75}
+- {: .mb-2 } Make a reservation at the Denver location for two guests, this Saturday @ 7:00 pm.
+- {: .mb-2 } Submit an online order of any menu item for delivery.
+- {: .mb-2 } Find one vegetarian menu item and another that is gluten-free.
+- {: .mb-2 } Find the location nearest to you and contact them and ask them about business hours.
+- {: .mb-2 } Sign up to the mailing list to start getting exclusive deals and offers.
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #1 Visiblity of System Status
 
 {:.text-xl .mb-5}
  The design should always keep users informed about what is going on, through appropriate feedback within a reasonable amount of time.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -65,7 +59,7 @@ Issue
 {:.mb-10}
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-1.jpg "an image title"){:.w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestions
 
 {:.text-xl .mb-10}
@@ -73,7 +67,7 @@ Some subtext communicating the restaurant hours and status in close proximity of
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-2.jpg "an image title"){:.w-full .mb-10}
 
-{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-emerald-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-10}
@@ -87,19 +81,19 @@ their reservation can only be held for so long.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-4.jpg "an image title"){:.mb-20}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #2 Match Between the System & the Real World
 
 {:.text-xl .mb-5}
 The design should speak the users’ language. Use words, phrases, and concepts familiar to the user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -108,13 +102,13 @@ reservation when in reality it’s catering and should be named more accurately.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-1.jpg "an image title"){:.mb-20 .w-full}
 
-{:.mb-5 .text-3xl }
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-10}
 Change the name of the service from “Group Dining” to “Catering”. This is an easy fix, but it also makes the service consistent. There is another area on the site that does refer to it as catering. This change would accurately communicate what it is and make it consistent across the website.
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
@@ -125,7 +119,7 @@ In life, menus are much more informative and designed for reading to help people
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-2.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-10}
@@ -133,19 +127,19 @@ Implement a simple, more traditional food menu with vertical scrolling and inclu
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-3.jpg "an image title"){:.mb-10 .w-full}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #3 User Control & Freedom
 
 {:.text-xl .mb-5}
 Users often perform actions by mistake. They need a clearly marked “emergency exit” to leave the unwanted action without having to go through an extended process.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -153,7 +147,7 @@ Since Texas de Brazil relies on third-party software for ordering pickup/deliver
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-10}
@@ -161,7 +155,7 @@ If it’s possible, replicating the main navigation of the website onto the rese
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-2.jpg "an image title"){:.mb-10 .w-full}
 
-{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-emerald-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-10}
@@ -174,44 +168,44 @@ Even on the nested pages, there is a supporting UI component that takes users ba
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-4.jpg "an image title"){:.mb-10 .w-full}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #4 Maintain Consistency & Adhere to Standards
 
 {:.text-xl .mb-5}
 Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
 **Internal Consistency.** This is a direct result of relying on third-party software to build the online systems for Texas de Brazil. The UI from the website design doesn’t match the UI of components you see for making a reservation and ordering online.
 
-<div class="flex flex-col md:flex-row gap-4 mb-10">
-    <img class="w-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-1.jpg">
-    <img class="w-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-2.jpg">
+<div class="flex flex-col md:flex-row gap-4 mb-10 items-center">
+    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-1.jpg">
+    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-2.jpg">
 </div>
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-10}
 Invest in the software. Texas de Brazil likely has little to no control over much of the third-party services they rely on. The only way to get around this would be to build and leverage their online apps and technology.
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-10}
 **External Consistency.** The website has unique branded UI components, which are cool, but comes at the price of not matching what users see on other websites. While this seems mostly okay, it might have been best to use conventional UI components.
 
-<div class="flex flex-col md:flex-row gap-4 mb-10">
-    <img class="w-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-3.jpg">
-    <img class="w-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-4.jpg">
+<div class="flex flex-col md:flex-row gap-4 mb-10 items-center">
+    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-3.jpg">
+    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-4.jpg">
 </div>
 
 {:.text-xl .mb-10}
@@ -227,26 +221,26 @@ Probably the biggest violation of this principle is on the locations page. There
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-6.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white.dark:text-white}
 Suggestions
 
 {:.list-disc .list-inside .leading-relaxed .text-xl .mb-20}
 - Simplify UI components when it comes to inputs and buttons.
 - Place the location search controls above the map.
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #5 Error Prevention
 
 {:.text-xl .mb-5}
 Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -254,7 +248,7 @@ The default selected restaurant location isn’t considering where users are loc
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white.dark:text-white}
 Suggestions
 
 {:.mb-5 .text-3xl}
@@ -268,19 +262,19 @@ Another could be leaving the select blank and have users select their desired lo
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-3.jpg "an image title"){:.mb-10 .w-full}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #6 Recognition Rather than Recall
 
 {:.text-xl .mb-5}
 Minimize the user’s memory load by making elements, actions, and options visible. The user should not have to remember information from one part of the interface to another.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -288,31 +282,31 @@ The names of food items are not constantly visible. Users have to recall availab
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-6-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.mb-5 .text-xl}
 Without doing an entire redesign of the menu, one solution could be to keep the names of menu items always visible.
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #7 Flexibility & Efficiency of Use
 
 {:.text-xl .mb-5}
 Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
 **Lack of accelerators for repetitious usage.** Texas de Brazil doesn’t have much to offer returning patrons. This is a missed opportunity to capture engaged users and reward them with an easier checkout experience for continuous use.
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-5}
@@ -320,19 +314,19 @@ Enhanced the experience for their returning online patrons by supporting account
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-7-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #8 Aesthetic & Minimalist Design
 
 {:.text-xl .mb-5}
 Interfaces should not contain information which is irrelevant or rarely needed. Every extra unit of information in an interface competes with the relevant units of information and diminishes their relative visibility.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -343,26 +337,26 @@ Other areas of concern exist on the site where readability is compromised for de
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-8-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white.dark:text-white}
 Suggestions
 
 {:.list-disc .list-inside .leading-relaxed .text-xl .mb-20}
 - Replace the background video with a static image.
 - Find all occurrences of low contrast text and adjust the design to make it pass AA compliance.
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #9 Help Users Recognize, Diagnose, & Recover from Errors
 
 {:.text-xl .mb-5}
 Error messages should be expressed in plain language (no error codes), precisely indicate the problem, and constructively suggest a solution.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-green-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-emerald-100 .text-emerald-900 .dark:bg-emerald-500/10 .dark:text-emerald-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 {:.text-xl .mb-5}
@@ -373,25 +367,25 @@ Another example is the form for making a reservation. If time slots are unavaila
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-9-img-1.jpg "an image title"){:.mb-20 .w-full}
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white .font-bold}
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
 ## #10 Help & Documentation
 
 {:.text-xl .mb-5}
 It’s best if the system doesn’t need any additional explanation. However, it may be necessary to provide documentation to help users understand how to complete their tasks.
 
-{:.mb-5}
+{:.mb-5 .dark:border-base-100}
 ___
 
-{:.uppercase .tracking-widest .mb-5 .text-sm}
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
 Findings
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
 When searching for dietary restrictions, there was no information available on the menu for what ingredients were included or excluded. Even though there is an entire tool dedicated to users to filter by dietary restrictions, it’s buried on the footer, even on the menu page, and completely hidden on a selected menu.
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white.dark:text-white}
 Suggestions
 
 {:.text-xl .mb-5}
@@ -399,7 +393,7 @@ Make the allergy and nutrition tool more prominent on the menu page. Additionall
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-1.jpg "an image title"){:.mb-10 .w-full}
 
-{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-100 .py-3 .px-5 .font-medium .mb-5}
+{:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
 {:.text-xl .mb-5}
@@ -408,7 +402,7 @@ Issue
 {:.text-xl .mb-5}
 There is contact information available for each location on the website. However, finding that information is a little challenging. To find that info, users need to first go to the locations page, find the location pin on the map, click a location, and finally, a page with all the location information will show.
 
-{:.mb-5 .text-3xl}
+{:.mb-5 .text-3xl .dark:text-white}
 Suggestion
 
 {:.text-xl .mb-5}

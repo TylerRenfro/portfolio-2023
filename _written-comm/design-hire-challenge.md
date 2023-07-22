@@ -1,9 +1,8 @@
 ---
-title: 'Apple Pay'
-name: 'Invoices: Supporting Apple Pay'
+title: 'Design Hire Challenge'
+name: 'Qualitative Surveys: Requirements & Team Satisfaction'
 URL: './apple-pay'
 thumbnail: "apple-pay-thumbnail.png"
-summary: "A guide on how to integrate Apple Pay as a payment method option for users within existing Priority products. Additionally, this guide outlines in detail, how and when to use Apple Pay in accordance to official guidelines from Apple."
 apple-pay-docs:
     - name: Privacy Statement Requirements
       url: 
@@ -19,32 +18,35 @@ apple-pay-docs:
       url:       
 
 ---
-
-{:.mb-20}
-![an image alt text]({{ site.baseurl }}/images/apple-pay/apple-pay-thumbnail.png "an image title")
+        
+<!-- {:.mb-20}
+![an image alt text]({{ site.baseurl }}/images/apple-pay/stock-illustration-pitch.jpg "an image title") -->
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
 ## Overview
 
 {:.text-xl .mb-5}
-Due to client demand, Priority has approved feature work to offer Apple Pay as a method of payment for MX Products. Although this current batch is limited to the scope of MX products, the solution should be easy to replicate and apply across Priority technologies.
-For this batch of work, these are the products and touch points that must have Apple Pay support:
-
-{:.text-xl .list-disc .list-inside .mb-20}
-* Healthcare Payments
-* Invoice Product
-* Payment Link Product
+Etab is an ordering and payment software service focused on online ordering, dine-in, carryout, and delivery. Currently, the platform handles dine-in services if managed by a restaurant server, but the workflow doesn’t truly support a contactless dine-in experience. Since the service industry has adapted to accommodating contactless dine-in experiences, many of our customers have been asking for this feature support. 
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
-## Original Suggested Design
+## Problem
 
 {:.text-xl .mb-10}
-How the email invoices looks currently. At a glance it's obvious it's not following the official guidelienes or using the official assets.
+In order to remain competitive in the market and keep our customers satisfied, Priority has requested a UX plan for accommodating this demand. Create a solution for restaurants using Etab to support contactless dine-in ordering and payment. 
+
+{:.text-xl .mb-10}
+There are five main tools restaurants have been using to accommodate contactless dine-in experiences. 
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- {: .mb-2 } A virtual waiting list that they can join from their phone, rather than speaking to a host.
+- {: .mb-2 } A scannable QR code at the table that takes them to an interactive, online menu.
+- {: .mb-2 } Contactless ordering from the restaurant’s website, which they can access from their own devices.
+- {: .mb-2 } Pay-at-the-table technology that allows them to split the bill and pay using their debit or credit card or a digital wallet like Apple Pay.
 
 ![an image alt text]({{ site.baseurl }}/images/apple-pay/invoice-legacy-ui.png "an image title"){:.mb-10 .w-full}
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mb-3 .dark:text-white}
-## Apple Pay Guidelines
+## Solution
 
 {:.text-xl .mb-5}
 In order to use apple pay, users have to meet certain circumstances for it to even appear as an option. Not only will there be conditional logic on what displays apple pay as an option, but also following brand specific imagery, messaging, and content when it does appear.
