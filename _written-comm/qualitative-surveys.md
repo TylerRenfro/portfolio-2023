@@ -134,7 +134,7 @@ Working under these conditions is not only inefficient, but it’s also frustrat
   <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20">
     <div class="card-body">
       <p class="text-2xl basis-1/2 dark:text-white mb-3">Additional Comments</p>
-      <p class="uppercase tracking-widest mb-10 text-sm text-zinc-500">7 Responses</p>
+      <p class="uppercase tracking-widest mb-10 text-sm text-zinc-500">6 Responses</p>
       {% for additionalComment in page.additionalComments %}
         <p class="text-md w-full text-zinc-500 mb-5">{{ additionalComment.comment }}</p>      
         <hr class="mb-5 dark:border-base-100 last:hidden">
