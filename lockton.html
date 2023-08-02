@@ -14,3 +14,190 @@ border-fill: "fill-red-600 dark:fill-red-500"
         </div>        
     </div>
 </div>
+<div class="grid grid-cols-12 gap-4 my-20">
+    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>        
+        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Approaching a Refresh</h1>
+        <ul class="list-disc list-inside text-md md:text-xl mb-5">
+            <li class="leading-loose">Legacy systems</li>
+            <li class="leading-loose">Overwhelming schedule</li>
+            <li class="leading-loose">Difficult to use trip planner</li>
+        </ul>
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>        
+    </div>
+</div> 
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/legacy-design-1.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/legacy-design-2.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/legacy-design-3.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 my-20">
+    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
+        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Local Environment</h1>
+        <ul class="list-disc list-inside text-md md:text-xl mb-5">
+            <li class="leading-loose">Legacy systems</li>
+            <li class="leading-loose">Overwhelming schedule</li>
+            <li class="leading-loose">Difficult to use trip planner</li>
+        </ul>
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>                
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="mockup-code self-center w-full">
+            <pre data-prefix=""><code class="text-yellow-400">{</code></pre> 
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300">"name"</span>: <span class="text-orange-300">"Lockton"</span>,</code></pre>
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300">"version"</span>: <span class="text-orange-300">"1.0.0"</span>,</code></pre>
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300">"description"</span>: <span class="text-orange-300">"Static Website for Lockton"</span>,</code></pre>            
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300">"scripts"</span>: <span class="text-fuchsia-400">{</span></code></pre> 
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"build-css"</span>: <span class="text-orange-300">"node-sass --include-path scss scss/main.scss build/css/style.min.css"</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"build-js"</span>: <span class="text-orange-300">"browserify js/**.js >build/js/script.min.js"</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"watch:css"</span>: <span class="text-orange-300">"1onchange 'scss/**/*.*' -- npm run build-css"</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"watch:js"</span>: <span class="text-orange-300">"onchange 'js/**.js' -- npm run build-js"</span>,</code></pre>             
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"browser-sync"</span>: <span class="text-orange-300">"browser-sync start --server build --files \"build/*.html, build/css/*.min.css\""</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"browser-sync"</span>: <span class="text-orange-300">"parallelshell 'npm run browser-sync' 'npm run watch:css' 'npm run watch:js'"</span></code></pre>             
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300"><span class="text-fuchsia-400">}</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white">   <span class="text-blue-300">"devDependencies"</span>: <span class="text-fuchsia-400">{</span></code></pre> 
+                <pre data-prefix=""><code class="text-white ">       <span class="text-blue-300">"browser-sync"</span>: <span class="text-orange-300">"^2.18.12"</span>,</code></pre> 
+                <pre data-prefix=""><code class="text-white ">       <span class="text-blue-300">"browserify"</span>: <span class="text-orange-300">"^14.3.0"</span>,</code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"node-sass"</span>: <span class="text-orange-300">"^4.5.3"</span>,</code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"nodemon"</span>: <span class="text-orange-300">"^1.11.0"</span>,</code></pre>             
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"onchange"</span>: <span class="text-orange-300">"^3.2.1"</span>,</code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">"parallelshell"</span>: <span class="text-orange-300">"^2.0.0"</span></code></pre>             
+                <pre data-prefix=""><code class="text-white">   <span class="text-blue-300"><span class="text-fuchsia-400">}</span></code></pre> 
+            <pre data-prefix=""><code class="text-yellow-400">}</code></pre> 
+        </div> 
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 my-20">
+    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
+        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Front-end Design</h1>
+        <ul class="list-disc list-inside text-md md:text-xl mb-5">
+            <li class="leading-loose">Legacy systems</li>
+            <li class="leading-loose">Overwhelming schedule</li>
+            <li class="leading-loose">Difficult to use trip planner</li>
+        </ul>
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>                
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="mockup-code self-center w-full">
+            <pre data-prefix=""><code class="text-lime-800">//==================================</code></pre> 
+            <pre data-prefix=""><code class="text-lime-800">// set base typography</code></pre>
+            <pre data-prefix=""><code class="text-lime-800">//==================================</code></pre>            
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$sans</span>: -apple-system,<span class="text-orange-300">'Segoe UI'</span>, <span class="text-orange-300">sans-serif</span></code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$mobile-body</span>: <span class="text-green-200"> 12px</span>,</code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$tablet-body</span>: <span class="text-green-200"> 18px</span>,</code></pre>            
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$laptop-body</span>: <span class="text-green-200"> 20px</span></code></pre> 
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$desktop-body</span>: <span class="text-green-200">21px</span>,</code></pre> 
+            <pre data-prefix=""><code class="text-white"></code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-amber-200">body</span> <span class="text-yellow-400">{</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">   <span class="text-blue-400">* <span class="text-fuchsia-400">{</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-family: $sans;</span></code></pre>             
+                <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                <pre data-prefix=""><code class="text-white"><span class="text-yellow-400">}</span></code></pre>   
+            <pre data-prefix=""><code class="text-white"></code></pre>
+            <pre data-prefix=""><code class="text-lime-800">//==================================</code></pre> 
+            <pre data-prefix=""><code class="text-lime-800">// type scale</code></pre>
+            <pre data-prefix=""><code class="text-lime-800">//==================================</code></pre>            
+            <pre data-prefix=""><code class="text-white"></code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$3xl</span>: <span class="text-green-200"> 3.157em</span>;</code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$2xl</span>: <span class="text-green-200"> 2.369em</span>;</code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$xl</span>: <span class="text-green-200">  1.777em</span></code></pre>            
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$lg</span>: <span class="text-green-200">  1.333em</span>;</code></pre> 
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$md</span>: <span class="text-green-200">  1em</span>;</code></pre>  
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$sm</span>: <span class="text-green-200">  .75em</span>;</code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$xs</span>: <span class="text-green-200">  .563em</span></code></pre>    
+            <pre data-prefix=""><code class="text-white"><span class="text-blue-300">$2xs</span>: <span class="text-green-200"> .422em</span>;</code></pre>              
+            <pre data-prefix=""><code class="text-white"></code></pre>
+            <pre data-prefix=""><code class="text-white"><span class="text-pink-300">@media</span> <span class="text-yellow-400">(</span><span class="text-blue-300">max-width</span>: <span class="text-green-200">768px</span><span class="text-yellow-400">) {</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">body</span> <span class="text-fuchsia-400">{</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$mobile-body</span>;</code></pre> 
+                <pre data-prefix=""><code class="text-white">    <span class="text-fuchsia-400">}</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-2xl-mobile</span> <span class="text-fuchsia-400">{</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$2xl-size</span>;</code></pre>             
+                <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-xl-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$xl-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-lg-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$lg-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-md-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$md-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre>
+                    <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-sm-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$sm-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-xs-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$xs-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">   <span class="text-amber-200">.type-2xs-mobile </span><span class="text-fuchsia-400">{</span></code></pre> 
+                    <pre data-prefix=""><code class="text-white">       <span class="text-blue-300">font-size</span>: <span class="text-blue-300">$2xs-size</span>;</code></pre>             
+                    <pre data-prefix=""><code class="text-white">   <span class="text-fuchsia-400">}</span></code></pre> 
+            <pre data-prefix=""><code class=""">}</code></pre> 
+        </div> 
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 my-20">
+    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
+        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Getting There</h1>
+        <ul class="list-disc list-inside text-md md:text-xl mb-5">
+            <li class="leading-loose">Legacy systems</li>
+            <li class="leading-loose">Overwhelming schedule</li>
+            <li class="leading-loose">Difficult to use trip planner</li>
+        </ul>
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>                
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/new-design-1.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/new-design-2.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/new-design-3.jpg">
+        </div>        
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 my-20">
+    <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
+        <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Closing Thoughts</h1>        
+        <p class="mb-10 leading-relaxed text-md md:text-xl">STL Metro is a prototype that proposes a simple solution to a broken public transit experience. For those who rely on the Metrolink system of St. Louis, this app would serve as a tool to help them navigate the city with ease.</p>                
+    </div>
+</div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <div class="self-center h-full flex">
+            <img class="w-full self-center" src="/images/lockton/device-mockup.jpg">
+        </div>        
+    </div>
+</div>
