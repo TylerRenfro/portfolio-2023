@@ -34,7 +34,7 @@ surveyQuestions:
     - question: I feel confident in the performance of my team and their reliability
       number: 5
 additionalComments:
-    - comment: There needs to be more design, collaboration, discussion when business presents a request. Additionally we need time to revisit our tech debt and developer experience. I feel like things are heading in the right direction and improving but PPS has never had process in place for our lifecycle that leads to quality solutions.
+    - comment: There needs to be more design, collaboration, discussion when business presents a request. Additionally we need time to revisit our tech debt and developer experience. I feel like things are heading in the right direction and improving but […] has never had process in place for our lifecycle that leads to quality solutions.
     - comment: Have clear requirements that have been thoroughly reviewed and approved by all stakeholders (executive, biz, UI/UX, product) before they are delivered to the scrum team. Switch to Kanban or another simplified process until we get a predictable, working process. Eliminate the product roadmap until product proves they can do their job.
     - comment: We need to be sure that stories are fully detailed with specific and clear requirements before they get to the development team. The dev team is not responsible for "design and implementation" of features and enhancements. They need clear direction outlined in the stories so there is no question that we are delivering what the business needs, not what we think they would want.
     - comment: The numbers wouldn't change drastically if I were less frustrated. We have legitimate issues that are and will continue to plague the development team.
@@ -46,17 +46,17 @@ additionalComments:
 ## Overview
 
 {:.text-xl .mb-5}
-Etab is an ordering and payment software service focused on online ordering, dine-in, carryout, and delivery. Currently, the platform handles dine-in services if managed by a restaurant server, but the workflow doesn’t truly support a contactless dine-in experience. Since the service industry has adapted to accommodating contactless dine-in experiences, many of our customers have been asking for this feature support. 
+After an acquisiton and implementing new software development processes, it became increasingly clear that there were issues at […]. To help identify and resolve these painpoints, I was tasked with investigating and auditing the processes teams were using. 
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
-## Problem
+## Proccess Pains & Resignation
 
 {:.text-xl .mb-10}
-Eventually, the process problems wear down employees, reducing their morale, and in many cases, driving them to resign. The turnover rate for tech roles is especially high, and it’s not exclusive to new roles, even tenured roles exit because of these problems. 
+Eventually, process problems wear down employees, reducing their morale, and in many cases, driving them to resign. The turnover rate for tech roles is especially high, and resignation is not exclusive to new hires, even tenured employees exit because of these problems.
 
 
 {:.text-xl .mb-10}
-In the last sixteen months, these are some of the roles that have resigned from […] product team. Please note that this data is limited and has not been thoroughly vetted across teams, but hopefully this serves as an indicator of how unhappy team members are considering the heavy suspicion they resigned due to poor processes.
+In the last sixteen months, these are some of the roles that have resigned from […] product team.
 
 {:.uppercase .tracking-widest .mb-10 .text-sm .text-zinc-500}
 Role Resignation
@@ -70,7 +70,7 @@ Role Resignation
 </div>
 
 {:.text-xl .mb-10}
-Some of these frustrations are even made public. Past employees have posted their feedback on Glassdoor, which could potentially deter talent from entering our teams. If enough negative feedback on the technology teams makes it online, […] could develop a reputation as a place for top talent to avoid.
+Some of the frustrations employees experience are even made public. Past employees have posted their feedback on Glassdoor, which could potentially deter talent from entering teams. If enough negative feedback on the technology teams makes it online, […] could develop a reputation as a place for top talent to avoid.
 
 
 <div class="grid grid-cols-12 gap-4 mb-10">
@@ -86,7 +86,9 @@ Some of these frustrations are even made public. Past employees have posted thei
 ## True Cost of Requirements
 
 {:.text-xl .mb-10}
-Aside from being a top complaint from technical team members at Priority, requirements can be directly tied to revenue. Unclear and changing requirements take up time, the further along a feature gets with changing requirements results in more time and resources needed to fix it. Looking at the cost of change, this chart demonstrates how requirements become costly to revise further into the product development process.
+Unclear and changing requirements take up time—each phase in the developmet journey, requires an increasing amount of resources to resolve. 
+
+{:.text-xl .mb-10}
 
 <svg class="w-full mb-20" viewBox="0 0 1373 709" fill="none" xmlns="http://www.w3.org/2000/svg"><path class="fill-black dark:fill-white" d="M53.468 678.56C55.0773 678.56 56.46 678.843 57.616 679.41C58.7947 679.977 59.7127 680.781 60.37 681.824C61.0273 682.867 61.356 684.125 61.356 685.598C61.356 687.049 61.0273 688.307 60.37 689.372C59.7127 690.415 58.7947 691.219 57.616 691.786C56.46 692.353 55.0773 692.636 53.468 692.636H48.47V701H44.832V678.56H53.468ZM52.89 689.508C54.4993 689.508 55.678 689.179 56.426 688.522C57.1967 687.842 57.582 686.867 57.582 685.598C57.582 684.306 57.1967 683.331 56.426 682.674C55.678 681.994 54.4993 681.654 52.89 681.654H48.47V689.508H52.89ZM65.6384 701V676.35H69.2764V686.72C69.8431 685.655 70.6024 684.884 71.5544 684.408C72.5291 683.909 73.6057 683.66 74.7844 683.66C75.9857 683.66 77.0624 683.898 78.0144 684.374C78.9891 684.827 79.7597 685.519 80.3264 686.448C80.8931 687.377 81.1764 688.556 81.1764 689.984V701H77.5384V691.14C77.5384 689.463 77.1871 688.295 76.4844 687.638C75.8044 686.981 74.9431 686.652 73.9004 686.652C73.1751 686.652 72.4497 686.833 71.7244 687.196C71.0217 687.536 70.4324 688.103 69.9564 688.896C69.5031 689.667 69.2764 690.709 69.2764 692.024V701H65.6384ZM96.5152 690.086C96.5152 688.953 96.1979 688.08 95.5632 687.468C94.9512 686.833 94.1012 686.516 93.0132 686.516C91.9932 686.516 91.1205 686.754 90.3952 687.23C89.6699 687.706 89.1372 688.477 88.7972 689.542L85.7372 688.25C86.1679 686.867 87.0065 685.757 88.2532 684.918C89.5225 684.079 91.1545 683.66 93.1492 683.66C94.5092 683.66 95.7105 683.887 96.7532 684.34C97.7959 684.771 98.6119 685.428 99.2012 686.312C99.8132 687.196 100.119 688.329 100.119 689.712V697.294C100.119 698.133 100.539 698.552 101.377 698.552C101.785 698.552 102.182 698.495 102.567 698.382L102.363 700.898C101.842 701.147 101.185 701.272 100.391 701.272C99.6659 701.272 99.0085 701.147 98.4192 700.898C97.8525 700.626 97.3992 700.229 97.0592 699.708C96.7419 699.164 96.5832 698.495 96.5832 697.702V697.464L97.3312 697.43C97.1272 698.314 96.7079 699.051 96.0732 699.64C95.4385 700.207 94.7019 700.637 93.8632 700.932C93.0245 701.204 92.1745 701.34 91.3132 701.34C90.2479 701.34 89.2845 701.17 88.4232 700.83C87.5845 700.49 86.9159 699.98 86.4172 699.3C85.9412 698.597 85.7032 697.736 85.7032 696.716C85.7032 695.447 86.1112 694.404 86.9272 693.588C87.7659 692.772 88.9445 692.217 90.4632 691.922L97.0592 690.63L97.0252 693.18L92.2312 694.166C91.2792 694.347 90.5652 694.608 90.0892 694.948C89.6132 695.288 89.3752 695.787 89.3752 696.444C89.3752 697.079 89.6132 697.589 90.0892 697.974C90.5879 698.337 91.2452 698.518 92.0612 698.518C92.6279 698.518 93.1719 698.45 93.6932 698.314C94.2372 698.178 94.7245 697.963 95.1552 697.668C95.5859 697.351 95.9145 696.954 96.1412 696.478C96.3905 695.979 96.5152 695.39 96.5152 694.71V690.086ZM112.54 701.34C110.84 701.34 109.287 701.011 107.882 700.354C106.476 699.697 105.366 698.767 104.55 697.566L107.066 695.39C107.564 696.319 108.278 697.067 109.208 697.634C110.16 698.178 111.293 698.45 112.608 698.45C113.65 698.45 114.478 698.269 115.09 697.906C115.702 697.543 116.008 697.033 116.008 696.376C116.008 695.945 115.86 695.571 115.566 695.254C115.294 694.914 114.761 694.653 113.968 694.472L110.398 693.724C108.584 693.361 107.292 692.783 106.522 691.99C105.751 691.174 105.366 690.143 105.366 688.896C105.366 687.967 105.638 687.105 106.182 686.312C106.726 685.519 107.519 684.884 108.562 684.408C109.627 683.909 110.896 683.66 112.37 683.66C114.07 683.66 115.52 683.966 116.722 684.578C117.923 685.167 118.841 686.017 119.476 687.128L116.96 689.236C116.529 688.329 115.894 687.661 115.056 687.23C114.217 686.777 113.344 686.55 112.438 686.55C111.712 686.55 111.089 686.641 110.568 686.822C110.046 687.003 109.65 687.253 109.378 687.57C109.106 687.887 108.97 688.261 108.97 688.692C108.97 689.145 109.14 689.542 109.48 689.882C109.82 690.222 110.432 690.483 111.316 690.664L115.192 691.48C116.824 691.797 117.968 692.341 118.626 693.112C119.306 693.86 119.646 694.778 119.646 695.866C119.646 696.954 119.362 697.917 118.796 698.756C118.229 699.572 117.413 700.207 116.348 700.66C115.282 701.113 114.013 701.34 112.54 701.34ZM131.523 701.34C129.823 701.34 128.327 700.989 127.035 700.286C125.743 699.583 124.734 698.575 124.009 697.26C123.306 695.923 122.955 694.336 122.955 692.5C122.955 690.664 123.306 689.089 124.009 687.774C124.734 686.437 125.731 685.417 127.001 684.714C128.27 684.011 129.709 683.66 131.319 683.66C132.973 683.66 134.379 684 135.535 684.68C136.691 685.36 137.575 686.289 138.187 687.468C138.799 688.647 139.105 689.984 139.105 691.48C139.105 691.888 139.093 692.273 139.071 692.636C139.048 692.999 139.014 693.316 138.969 693.588H125.301V690.8H137.371L135.569 691.344C135.569 689.803 135.183 688.624 134.413 687.808C133.642 686.969 132.588 686.55 131.251 686.55C130.276 686.55 129.426 686.777 128.701 687.23C127.975 687.683 127.42 688.363 127.035 689.27C126.649 690.154 126.457 691.242 126.457 692.534C126.457 693.803 126.661 694.88 127.069 695.764C127.477 696.648 128.055 697.317 128.803 697.77C129.551 698.223 130.435 698.45 131.455 698.45C132.588 698.45 133.506 698.235 134.209 697.804C134.911 697.373 135.467 696.773 135.875 696.002L138.765 697.362C138.357 698.178 137.801 698.892 137.099 699.504C136.419 700.093 135.603 700.547 134.651 700.864C133.699 701.181 132.656 701.34 131.523 701.34ZM163.188 678.56C166.701 678.56 169.432 679.535 171.382 681.484C173.354 683.411 174.34 686.176 174.34 689.78C174.34 693.384 173.354 696.161 171.382 698.11C169.432 700.037 166.701 701 163.188 701H155.266V678.56H163.188ZM163.188 697.906C165.568 697.906 167.381 697.203 168.628 695.798C169.897 694.37 170.532 692.364 170.532 689.78C170.532 687.196 169.897 685.201 168.628 683.796C167.381 682.368 165.568 681.654 163.188 681.654H158.904V697.906H163.188ZM186.706 701.34C185.006 701.34 183.51 700.989 182.218 700.286C180.926 699.583 179.918 698.575 179.192 697.26C178.49 695.923 178.138 694.336 178.138 692.5C178.138 690.664 178.49 689.089 179.192 687.774C179.918 686.437 180.915 685.417 182.184 684.714C183.454 684.011 184.893 683.66 186.502 683.66C188.157 683.66 189.562 684 190.718 684.68C191.874 685.36 192.758 686.289 193.37 687.468C193.982 688.647 194.288 689.984 194.288 691.48C194.288 691.888 194.277 692.273 194.254 692.636C194.232 692.999 194.198 693.316 194.152 693.588H180.484V690.8H192.554L190.752 691.344C190.752 689.803 190.367 688.624 189.596 687.808C188.826 686.969 187.772 686.55 186.434 686.55C185.46 686.55 184.61 686.777 183.884 687.23C183.159 687.683 182.604 688.363 182.218 689.27C181.833 690.154 181.64 691.242 181.64 692.534C181.64 693.803 181.844 694.88 182.252 695.764C182.66 696.648 183.238 697.317 183.986 697.77C184.734 698.223 185.618 698.45 186.638 698.45C187.772 698.45 188.69 698.235 189.392 697.804C190.095 697.373 190.65 696.773 191.058 696.002L193.948 697.362C193.54 698.178 192.985 698.892 192.282 699.504C191.602 700.093 190.786 700.547 189.834 700.864C188.882 701.181 187.84 701.34 186.706 701.34ZM203.448 679.002V695.9C203.448 696.739 203.663 697.351 204.094 697.736C204.547 698.121 205.148 698.314 205.896 698.314C206.508 698.314 207.041 698.223 207.494 698.042C207.947 697.838 208.367 697.566 208.752 697.226L209.568 699.878C209.047 700.331 208.401 700.694 207.63 700.966C206.882 701.215 206.043 701.34 205.114 701.34C204.139 701.34 203.244 701.181 202.428 700.864C201.612 700.547 200.977 700.037 200.524 699.334C200.071 698.609 199.833 697.668 199.81 696.512V680.022L203.448 679.002ZM209.296 684V686.856H196.546V684H209.296ZM220.374 701.34C218.674 701.34 217.178 700.989 215.886 700.286C214.594 699.583 213.586 698.575 212.86 697.26C212.158 695.923 211.806 694.336 211.806 692.5C211.806 690.664 212.158 689.089 212.86 687.774C213.586 686.437 214.583 685.417 215.852 684.714C217.122 684.011 218.561 683.66 220.17 683.66C221.825 683.66 223.23 684 224.386 684.68C225.542 685.36 226.426 686.289 227.038 687.468C227.65 688.647 227.956 689.984 227.956 691.48C227.956 691.888 227.945 692.273 227.922 692.636C227.9 692.999 227.866 693.316 227.82 693.588H214.152V690.8H226.222L224.42 691.344C224.42 689.803 224.035 688.624 223.264 687.808C222.494 686.969 221.44 686.55 220.102 686.55C219.128 686.55 218.278 686.777 217.552 687.23C216.827 687.683 216.272 688.363 215.886 689.27C215.501 690.154 215.308 691.242 215.308 692.534C215.308 693.803 215.512 694.88 215.92 695.764C216.328 696.648 216.906 697.317 217.654 697.77C218.402 698.223 219.286 698.45 220.306 698.45C221.44 698.45 222.358 698.235 223.06 697.804C223.763 697.373 224.318 696.773 224.726 696.002L227.616 697.362C227.208 698.178 226.653 698.892 225.95 699.504C225.27 700.093 224.454 700.547 223.502 700.864C222.55 701.181 221.508 701.34 220.374 701.34ZM239.895 683.66C241.255 683.66 242.411 683.864 243.363 684.272C244.337 684.657 245.153 685.213 245.811 685.938C246.468 686.663 246.967 687.491 247.307 688.42L243.873 689.78C243.578 688.737 243.102 687.944 242.445 687.4C241.81 686.833 240.971 686.55 239.929 686.55C238.909 686.55 238.036 686.788 237.311 687.264C236.585 687.717 236.03 688.386 235.645 689.27C235.282 690.154 235.101 691.242 235.101 692.534C235.101 693.803 235.293 694.88 235.679 695.764C236.064 696.648 236.619 697.317 237.345 697.77C238.07 698.223 238.931 698.45 239.929 698.45C240.699 698.45 241.368 698.325 241.935 698.076C242.501 697.804 242.966 697.43 243.329 696.954C243.714 696.455 243.975 695.855 244.111 695.152L247.409 696.274C247.091 697.294 246.593 698.189 245.913 698.96C245.255 699.708 244.428 700.297 243.431 700.728C242.433 701.136 241.289 701.34 239.997 701.34C238.319 701.34 236.835 700.989 235.543 700.286C234.251 699.583 233.242 698.575 232.517 697.26C231.814 695.923 231.463 694.336 231.463 692.5C231.463 690.664 231.814 689.089 232.517 687.774C233.242 686.437 234.239 685.417 235.509 684.714C236.801 684.011 238.263 683.66 239.895 683.66ZM256.606 679.002V695.9C256.606 696.739 256.822 697.351 257.252 697.736C257.706 698.121 258.306 698.314 259.054 698.314C259.666 698.314 260.199 698.223 260.652 698.042C261.106 697.838 261.525 697.566 261.91 697.226L262.726 699.878C262.205 700.331 261.559 700.694 260.788 700.966C260.04 701.215 259.202 701.34 258.272 701.34C257.298 701.34 256.402 701.181 255.586 700.864C254.77 700.547 254.136 700.037 253.682 699.334C253.229 698.609 252.991 697.668 252.968 696.512V680.022L256.606 679.002ZM262.454 684V686.856H249.704V684H262.454ZM273.532 701.34C271.832 701.34 270.336 700.989 269.044 700.286C267.752 699.583 266.744 698.575 266.018 697.26C265.316 695.923 264.964 694.336 264.964 692.5C264.964 690.664 265.316 689.089 266.018 687.774C266.744 686.437 267.741 685.417 269.01 684.714C270.28 684.011 271.719 683.66 273.328 683.66C274.983 683.66 276.388 684 277.544 684.68C278.7 685.36 279.584 686.289 280.196 687.468C280.808 688.647 281.114 689.984 281.114 691.48C281.114 691.888 281.103 692.273 281.08 692.636C281.058 692.999 281.024 693.316 280.978 693.588H267.31V690.8H279.38L277.578 691.344C277.578 689.803 277.193 688.624 276.422 687.808C275.652 686.969 274.598 686.55 273.26 686.55C272.286 686.55 271.436 686.777 270.71 687.23C269.985 687.683 269.43 688.363 269.044 689.27C268.659 690.154 268.466 691.242 268.466 692.534C268.466 693.803 268.67 694.88 269.078 695.764C269.486 696.648 270.064 697.317 270.812 697.77C271.56 698.223 272.444 698.45 273.464 698.45C274.598 698.45 275.516 698.235 276.218 697.804C276.921 697.373 277.476 696.773 277.884 696.002L280.774 697.362C280.366 698.178 279.811 698.892 279.108 699.504C278.428 700.093 277.612 700.547 276.66 700.864C275.708 701.181 274.666 701.34 273.532 701.34ZM292.237 701.34C290.831 701.34 289.551 700.989 288.395 700.286C287.261 699.583 286.366 698.575 285.709 697.26C285.051 695.945 284.723 694.37 284.723 692.534C284.723 690.63 285.074 689.021 285.777 687.706C286.479 686.391 287.42 685.394 288.599 684.714C289.777 684.011 291.069 683.66 292.475 683.66C293.925 683.66 295.149 684.057 296.147 684.85C297.144 685.643 297.813 686.675 298.153 687.944L297.745 688.318V676.35H301.383V701H298.153L297.881 696.376L298.357 696.41C298.198 697.43 297.824 698.314 297.235 699.062C296.645 699.787 295.909 700.354 295.025 700.762C294.163 701.147 293.234 701.34 292.237 701.34ZM293.019 698.416C293.993 698.416 294.832 698.167 295.535 697.668C296.237 697.169 296.781 696.467 297.167 695.56C297.552 694.653 297.745 693.565 297.745 692.296C297.745 691.117 297.552 690.109 297.167 689.27C296.781 688.409 296.237 687.751 295.535 687.298C294.855 686.845 294.061 686.618 293.155 686.618C291.636 686.618 290.457 687.139 289.619 688.182C288.78 689.225 288.361 690.664 288.361 692.5C288.361 694.336 288.769 695.787 289.585 696.852C290.401 697.895 291.545 698.416 293.019 698.416Z" />
 
@@ -98,13 +100,16 @@ Aside from being a top complaint from technical team members at Priority, requir
 
 
 {:.text-xl .mb-5}
-The cost of change chart represents what our teams are currently experiencing. Constantly, development teams are being asked to work from unclear requirements. This results in feature releases being delayed, shipping incorrect solutions, limited sprint output, wasted time spent on re-working, and even contributes to the high turnover rate for tech positions at Priority. If Priority were to take action and resolve the issues with requirements, the rewards would be exponential—product teams would be able to deliver higher quality work faster that drives customer satisfaction.
+The cost of change chart represents challenges teams are currently facing. Constantly, development teams are being asked to work from unclear requirements. This results in delayed feature releases, shipping incorrect solutions, limited sprint output, wasted time spent on re-working, and even contributes to the high turnover rate for tech positions at […].
+
+{:.text-xl .mb-5}
+If […] were to take action and resolve the issues with requirements, the rewards would be exponential—product teams would be able to deliver higher quality work faster that drives customer satisfaction.
 
 {:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
-## How Teams are Effected
+## How Teams Are Effected
 
 {:.text-xl .mb-10}
-Working under these conditions is not only inefficient, but it’s also frustrating for team members. When surveyed, employees report that their assignments are unclear and lack details.
+Working under these conditions is not only inefficient, but it’s also frustrating for team members. When surveyed, employees report that their assignments are unclear and lack details
 
 <div>
     {% for surveyQuestion in page.surveyQuestions%}
@@ -142,3 +147,63 @@ Working under these conditions is not only inefficient, but it’s also frustrat
     </div>  
   </div>  
 </div>
+
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-10 .dark:text-white}
+## How to Implement Change
+
+{:.text-xl .mb-10}
+Eventually, process problems wear down employees, reducing their morale, and in many cases, driving them to resign. The turnover rate for tech roles is especially high, and resignation is not exclusive to new hires, even tenured employees exit because of these problems.
+
+![an image alt text]({{ site.baseurl }}/images/qualitative-survey/leadership-calendar.png "an image title"){:.mb-10 .w-full}
+
+{:.text-xl .mb-10}
+Eventually, process problems wear down employees, reducing their morale, and in many cases, driving them to resign. The turnover rate for tech roles is especially high, and resignation is not exclusive to new hires, even tenured employees exit because of these problems.
+
+![an image alt text]({{ site.baseurl }}/images/qualitative-survey/suggested-1.jpeg "an image title"){:.mb-10 .w-full}
+
+![an image alt text]({{ site.baseurl }}/images/qualitative-survey/suggested-2.jpeg "an image title"){:.mb-10 .w-full}
+
+![an image alt text]({{ site.baseurl }}/images/qualitative-survey/suggested-3.jpeg "an image title"){:.mb-10 .w-full}
+
+{:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
+## Start with a Pilot Team
+
+{:.text-xl .mb-10}
+Overriding the current processes and changing everything teams currently do is an enormous amount of unnecessary risk and it isn’t something Priority should do to drive change. Instead, this should be a process tested, validated, and operated separately with a small team
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Executive Team
+
+{:.text-xl .mb-10}
+What team structures would look like for testing new process methodologies.
+
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Shaping Team
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Large Batch Team
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Small Batch Team
+
+{:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
+## Starting Options
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Option A: Six-Week Experiment
+
+<!-- {:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75} -->
+1. {: .mb-3 . } Shape one significant project that can be comfortably finished within six weeks. Be conservative and allow extra time on your first run.
+2. {: .mb-3 . } Carve out one designer and two programmers’ time for the entire six weeks. Guarantee that nobody will interrupt them for the length of the experiment.
+3. {: .mb-3 . } Instead of a proper betting table, simply plan for the team to do the work you shaped for this one experiment.
+4. {: .mb-3 . } Kick off by presenting your shaped work to the team, with all the ingredients of a pitch. Set the expectation that they will discover and track their own tasks.
+5. {: .mb-3 . } Dedicate a physical space or a chat room to the cross-functional team so they can work closely together.
+6. {: .mb-3 . } Encourage them to get one piece done by wiring UI and code together early in the project.
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Option B: Start with Shaping
+
+{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
+# Option C: Start with Cycles
+
