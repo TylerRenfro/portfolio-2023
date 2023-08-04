@@ -1,8 +1,6 @@
 ---
-title: "Heuristic Evaluation"
 name: "Heuristic Evaluation: Texas De Brazil"
 URL: './heuristic-evaluation'
-thumbnail: "texas-de-brazil-thumbnail.jpg"
 ---
 {:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white}
 ## Overview

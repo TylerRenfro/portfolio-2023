@@ -2,7 +2,6 @@
 title: "Remote Usability Testing"
 name: "Remote Usability Testing: Qualitative Study"
 URL: './remote-usability-testing'
-thumbnail: "remote-usability-testing.jpg"
 participants:
     - name: Direcotor of Home Health Care
       initials: DH

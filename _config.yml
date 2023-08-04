@@ -16,11 +16,11 @@ collections:
       - payright.md
       - green-dining-finder.md
       - lockton.md
-  written-comm:
+  research-artifacts:
     order:
-      - apple-pay.md
       - heuristic-analysis.md
-      - ux-plan.md
+      - qualitative-surveys.md      
+      - remote-usability-testing.md
 
 
 exclude:

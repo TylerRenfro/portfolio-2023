@@ -1,8 +1,6 @@
 ---
-title: 'Design Hire Challenge'
 name: 'Qualitative Surveys: Software Team Satisfaction'
-URL: './apple-pay'
-thumbnail: "apple-pay-thumbnail.png"
+URL: './qualitative-surveys'
 roleResignation: 
     - title: Director of Development
       quantity: 1 
