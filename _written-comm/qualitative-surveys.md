@@ -193,7 +193,7 @@ What team structures would look like for testing new process methodologies.
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Option A: Six-Week Experiment
 
-<!-- {:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75} -->
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
 1. {: .mb-3 . } Shape one significant project that can be comfortably finished within six weeks. Be conservative and allow extra time on your first run.
 2. {: .mb-3 . } Carve out one designer and two programmers’ time for the entire six weeks. Guarantee that nobody will interrupt them for the length of the experiment.
 3. {: .mb-3 . } Instead of a proper betting table, simply plan for the team to do the work you shaped for this one experiment.
