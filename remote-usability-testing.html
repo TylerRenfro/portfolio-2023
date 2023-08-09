@@ -5,9 +5,9 @@ title: "Remote Usability Testing: Qualitative Study"
 caption: "2022 | Research Artifacts"
 summary: "The following document covers user research findings from qualative studies. This document was originally written as a way to share the findings from all the research before building a custom software platform."
 ---
-{%- assign written-comm = site.written-comm | where: 'title', 'Remote Usability Testing' -%}
-{% for written-comm in written-comm %}            
+{%- assign research-artifacts = site.research-artifacts | where: 'title', 'Remote Usability Testing' -%}
+{% for research-artifact in research-artifacts %}            
     <div>
-        {{ written-comm.content }}
+        {{ research-artifact.content }}
     </div>            
-{% endfor %}        
+{% endfor %}

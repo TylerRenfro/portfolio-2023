@@ -18,7 +18,7 @@ collections:
       - lockton.md
   research-artifacts:
     order:
-      - heuristic-analysis.md
+      - heuristic-evaluation.md
       - qualitative-surveys.md      
       - remote-usability-testing.md
 

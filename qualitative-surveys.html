@@ -5,9 +5,9 @@ title: "Qualitative Surveys: Requirements & Team Satisfaction"
 caption: "2022 | Research Artifacts"
 summary: "This document outlines a series of suggestions on how to improve the product development processes at […] and increase harmony between departments. These proposed changes are intended to target the recurring pain points of poor team communication, unclear requirements, frequently changing priorities, and exhaustion of all projects feeling rushed."
 ---
-{%- assign written-comm = site.written-comm | where: 'title', 'Qualitative Surveys' -%}
-{% for written-comm in written-comm %}            
+{%- assign research-artifacts = site.research-artifacts | where: 'title', 'Qualitative Surveys' -%}
+{% for research-artifact in research-artifacts %}            
     <div>
-        {{ written-comm.content }}
+        {{ research-artifact.content }}
     </div>            
 {% endfor %}

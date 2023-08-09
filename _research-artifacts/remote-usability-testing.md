@@ -1,6 +1,6 @@
 ---
 title: "Remote Usability Testing"
-name: "Remote Usability Testing: Qualitative Study"
+name: "Qualitative Usability Testing: Remote UX Research"
 URL: './remote-usability-testing'
 participants:
     - name: Direcotor of Home Health Care

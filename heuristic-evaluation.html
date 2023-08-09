@@ -6,9 +6,9 @@ caption: "2022 | Research Artifacts"
 summary: "The following document is a heuristic evaluation of texasdebrazil.com, a website that allows users to make reservations, order delivery/pickup, browse menu options, and find locations. The analysis includes an evaluation of the Nielson 10 usability heuristics of interface design."
 ---
 
-{%- assign written-comm = site.written-comm | where: 'title', 'Heuristic Evaluation' -%}
-{% for written-comm in written-comm %}            
+{%- assign research-artifacts = site.research-artifacts | where: 'title', 'Heuristic Evaluation' -%}
+{% for research-artifact in research-artifacts %}            
     <div>
-        {{ written-comm.content }}
+        {{ research-artifact.content }}
     </div>            
 {% endfor %}
