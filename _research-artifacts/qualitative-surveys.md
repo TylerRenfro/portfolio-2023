@@ -169,23 +169,62 @@ Eventually, process problems wear down employees, reducing their morale, and in 
 {:.text-xl .mb-10}
 Overriding the current processes and changing everything teams currently do is an enormous amount of unnecessary risk and it isn’t something Priority should do to drive change. Instead, this should be a process tested, validated, and operated separately with a small team
 
+{:.text-xl .mb-10}
+Here’s what team structures would look like for testing new process methodologies.
+
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Executive Team
 
 {:.text-xl .mb-10}
-What team structures would look like for testing new process methodologies.
+Stakeholders, C-Level Leadership, and Business team members make up the roles within this team. The Executive Team makes decisions on what work is prioritized and committed into the next working cycle.
+
+{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
+Team Members
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- Chief Strategy Officer
+- VP of Development
+- VP of Product
+- VP of Business Process
 
 
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Shaping Team
 
+{:.text-xl .mb-10}
+Filled with senior team members that work in parallel to building teams. The Shaping Team prepares requests, write pitches, and collaborate with executive leadership to prioritize upcoming work. This team is responsible for guiding the success building teams execute
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- Product Owner
+- Product Manager
+- Director of Development
+- Director of UX
+
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Large Batch Team
+
+{:.text-xl .mb-10}
+Large Batch team members work on big features or stuff that’s going to take six weeks to complete. The Large Batch Team should consist of senior team members, or seasoned and experienced talent. 
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- Senior Front-End Developer
+- Senior Back-End Developer
+- Senior QA Analyst
+- Senior UX Designer
 
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Small Batch Team
 
-{:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-3 .dark:text-white}
+{:.text-xl .mb-10}
+Small Batch team members work on smaller things: tweaks, minor adjustments, and easy adds that should take anywhere from a day to two weeks to complete. This is where new hires or entry level talent would typically start 
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75}
+- Mid or Junior Front-End Developer
+- Mid or Junior Back-End Developer
+- Mid or Junior QA Analyst
+- Mid or Junior UX Designer
+
+{:.text-2xl .md:text-4xl .lg:text-4xl .mt-6 .mb-10 .dark:text-white}
 ## Starting Options
 
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
@@ -202,6 +241,12 @@ What team structures would look like for testing new process methodologies.
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Option B: Start with Shaping
 
+{:.text-xl .mb-10}
+Sometimes it’s not possible to get a team together to work for six weeks because somebody else, a CTO perhaps, controls the programmers’ time. In that case, you can start by shaping a compelling project with clearer boundaries than past projects. Present the project and put it through your company’s existing scheduling process. Better-shaped work can shine a light on the engineering team and help them open up to things like longer cycles or a more deliberate betting process.
+
 {:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
 # Option C: Start with Cycles
+
+{:.text-xl .mb-10}
+Another approach is to start by working in six week cycles. For teams that formerly used two-week sprints, this removes the overhead of constant planning meetings and gives programmers more time to build momentum and hit their stride. Once the team has more room to breathe, it’ll be natural to think more about how to shape the work to take advantage of this new capacity.
 
