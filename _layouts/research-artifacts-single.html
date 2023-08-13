@@ -12,7 +12,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="container mx-auto px-4">
+    <div class="container mx-auto px-8 sm:px-4">
         {% include navbar.html %}
         <div class="grid grid-cols-12 gap-4">
           <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
@@ -22,9 +22,11 @@
         </div>
         <div class="grid grid-cols-12 gap-4 my-5">
           <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
-              <p class="text-lg md:text-xl mb-20 font-medium pl-7 border-l-4 border-red-600 dark:border-red-400"><span class="font-semibold text-red-600 dark:text-red-400">Summary:</span> {{ page.summary }}</p>
-              <hr class="mb-10 dark:border-base-100 w-full flex">                
-              {{ content }}
+              <p class="text-lg md:text-xl prose max-w-full pl-7 border-l-4 border-red-600 dark:border-red-400 not-prose"><span class="font-semibold text-red-600 dark:text-red-400">Summary:</span> {{ page.summary }}</p>
+              <hr class="dark:border-base-100 w-full flex mt-[4rem]">
+              <div class="max-w-full prose prose-h1:text-3xl prose-h1:md:text-4xl prose-h1:lg:text-5xl prose-h1:leading-tight prose-h1:sm:leading-tight prose-h1:md:leading-tight prose-h1:lg:leading-tight prose-h1:font-normal prose-h1:mt-20 prose-h1:mb-3 prose-h1:dark:text-white prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:lg:text-3xl prose-h2:font-normal prose-h2:dark:text-white prose-p:text-xl prose-p:leading-relaxed prose-li:text-xl prose-li:leading-loose prose-img:w-full">
+                {{ content }}
+              </div>                              
           </div>
         </div>
     </div>        

@@ -39,7 +39,7 @@ participants:
       additionalAnswer2: "I would need to see the system first to make an accurate rating."
       fileName: "BA-session.mp4"
 usabilityTasks:
-    - name: "You have been assigned with onboarding a new provider, Service in Bloom.  Manually add the new provider account and input their information using the new Payright Web Portal."
+    - name: "You have been assigned with onboarding a new provider, Service in Bloom. Manually add the new provider account and input their information using the new Payright Web Portal."
       number: 1
     - name: "Manually add the Clients of Service in Bloom to their Chicago location. Client information and  documents can be found using the Jira link below."
       number: 2
@@ -67,19 +67,15 @@ followupSurvey:
     response4: "It will greatly improve my day to day activities. Currently we are working with a dinosaur system, so hopefully this will bring us improvements that will make us more competetive."
     response5: "It should make it easier if we only have to enter things once into the system and not to enter again into CPX. It could cut down time."
 ---
-{:.text-2xl .md:text-4xl .lg:text-4xl .mb-5 .dark:text-white}
 ## Overview
 
-{:.text-xl .mb-10}
 Before upgrading to new technology, I wanted to benchmark the legacy product. To help identify current success, known pain points, and undiscovered issues I teamed up with the director of this organization to gain a deep undertsanding of every touch point and every customer journey. Additionaly, I ran some qualitative usability studies with remote participants.
 
-{:.text-xl .md:text-xl .mb-5 .dark:text-white .font-semibold}
-# Participants:
-
+## Participants:
 
 <div>
     {% for participant in page.participants %}            
-        <div class="flex flex-row items-center gap-4 mb-5 last:mb-20">
+        <div class="flex flex-row items-center gap-4 mb-5 last:mb-20 not-prose">
             <div class="avatar placeholder">
                 <div class="bg-neutral-focus text-neutral-content rounded-full w-14">
                     <span class="text-xl">{{ participant.initials }}</span>
@@ -90,15 +86,12 @@ Before upgrading to new technology, I wanted to benchmark the legacy product. To
     {% endfor %}
 </div>
 
-{:.text-4xl .md:text-5xl .lg:text-6xl .mb-10 .dark:text-white}
-## Benchmarking Legacy
+# Benchmarking Legacy
 
-{:.text-xl .mb-5}
 Taking NPS surveys and applying them to gather employee-relation metrics. Since the old system was getting replaced, it didn't make a lot of sense to research heavily into it. A quick survey with an optional, open-ended question seemed to be the best format to get a feel of what employees think about their current system.
 
-![an image alt text]({{ site.baseurl }}/images/remote-usability-test/legacy-system.jpg "an image title"){:.mb-10 .w-full .border}
+![an image alt text]({{ site.baseurl }}/images/remote-usability-test/legacy-system.jpg "an image title"){:.border}
 
-{:.mb-10 .text-2xl .dark:text-white .leading-normal .w-full}
 How happy are you with tools and processes at […]?
 
 <div class="grid md:grid-cols-5 gap-4 mb-20">
@@ -144,14 +137,12 @@ How happy are you with tools and processes at […]?
   </div>
 </div>
 
-{:.mb-10 .dark:border-base-100}
 ___
 
-{:.mb-5 .text-2xl .dark:text-white .leading-normal .w-full}
-5 Responses
-
-{:.uppercase .tracking-widest .mb-10 .text-sm .text-zinc-500}
-How Happy are you with tools and processes at […]?
+<div class="not-prose">
+  <p class="mb-3 text-xl dark:text-white">5 Responses</p>
+  <p class="uppercase tracking-widest mb-10 text-md opacity-75">How Happy are you with tools and processes at […]?</p>
+</div>
 
 <div class="grid grid-cols-3 gap-4 mb-20">
   <div class="flex flex-col">
@@ -168,18 +159,16 @@ How Happy are you with tools and processes at […]?
   </div>
 </div>
 
-{:.mb-10 .dark:border-base-100}
 ___
 
-{:.mb-5 .text-2xl .dark:text-white .leading-normal .w-full}
-Additional Answers
-
-{:.uppercase .tracking-widest .mb-10 .text-sm .text-zinc-500}
-5 Responses
+<div class="not-prose">
+  <p class="mb-3 text-xl dark:text-white">Additional Answers</p>
+  <p class="uppercase tracking-widest mb-10 text-md opacity-75">5 Responses</p>
+</div>
 
 <div>
   {% for participant in page.participants %}            
-  <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20">
+  <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20 not-prose">
     <div class="card-body">
       <div class="flex flex-row items-center gap-4 mb-5 last:mb-20">
         <div class="avatar placeholder">
@@ -247,21 +236,18 @@ Additional Answers
   {% endfor %}
 </div>
 
-{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
-## Validating a New Concept
+# Validating a New Concept
 
-{:.text-xl .mb-5}
 Taking NPS surveys and applying them to gather employee-relation metrics. Since the old system was getting replaced, it didn't make a lot of sense to research heavily into it. A quick survey with an optional, open-ended question seemed to be the best format to get a feel of what employees think about their current system.
 
-![an image alt text]({{ site.baseurl }}/images/remote-usability-test/new-prototype.jpg "an image title"){:.mb-10 .w-full .border}
+![an image alt text]({{ site.baseurl }}/images/remote-usability-test/new-prototype.jpg "an image title"){:.border}
 
-{:.mb-5 .text-2xl .md:text-4xl .lg:text-4xl .dark:text-white .leading-normal .w-full}
-Starting with an Onboarding Focus
 
-{:.text-xl .mb-10}
+# Starting with an Onboarding Focus
+
 Taking NPS surveys
 
-<div class="flex flex-row mb-10">
+<div class="flex flex-row mb-10 not-prose">
   <div class="flex flex-col mx-auto">
     <div class="card bg-base-100 dark:bg-zinc-900 shadow-md mb-3">
         <div class="card-body mx-auto">           
@@ -288,59 +274,50 @@ Taking NPS surveys
   </div>
 </div>
 
-{:.mb-10 .dark:border-base-100}
 ___
 
-{:.mb-5 .text-2xl .dark:text-white .leading-normal .w-full}
-Remote Usability Testing
+<div class="not-prose">
+  <p class="mb-3 text-xl dark:text-white">Remote Usability Testing</p>
+  <p class="uppercase tracking-widest mb-10 text-md opacity-75">Tasks</p>
+</div>
 
-{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
-Tasks
-
-
-<ul class="list-decimal list-inside leading relaxed text-lg mb-10 opacity-75">
+<ul class="list-decimal">
 {% for task in page.usabilityTasks %}
   <li class="mb-5">{{ task.name }}</li>
 {% endfor %}
 </ul>
 
-{:.mb-10 .dark:border-base-100}
 ___
 
-{:.mb-5 .text-2xl .dark:text-white .leading-normal}
-Recorded Sessions
+## Recorded Sessions
 
-{:.text-xl .mb-10}
 Unable to share to respect participant policy and NDA agreements, but the sessions were recorded and documented.
 
-{:.uppercase .tracking-widest .mb-5 .text-sm .text-zinc-500}
-5 Participants
+<div class="not-prose">
+  <p class="uppercase tracking-widest mb-10 text-md opacity-75">5 Participants</p>
+</div>
 
-<div class="flex flex-col mb-10 gap-4 flex-wrap">
+<div class="flex flex-col mb-10 flex-wrap not-prose">
 {% for participant in page.participants %}
-  <div class="flex flex-row w-full gap-4 mb-3 items-center">
-    <svg class="h-8 md:h-12 w-8 md:w-12 md:h-24 md:w-24 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m383-310 267-170-267-170v340Zm97 230q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-156t86-127Q252-817 325-848.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82-31.5 155T763-197.5q-54 54.5-127 86T480-80Zm0-60q142 0 241-99.5T820-480q0-142-99-241t-241-99q-141 0-240.5 99T140-480q0 141 99.5 240.5T480-140Zm0-340Z"/></svg>
+  <div class="flex flex-row w-full gap-4 items-center mb-10">
+    <svg class="h-8 md:h-12 w-8 md:w-12 md:h-12 md:w-12 fill-blue-500 dark:fill-blue-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m383-310 267-170-267-170v340Zm97 230q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-156t86-127Q252-817 325-848.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 82-31.5 155T763-197.5q-54 54.5-127 86T480-80Zm0-60q142 0 241-99.5T820-480q0-142-99-241t-241-99q-141 0-240.5 99T140-480q0 141 99.5 240.5T480-140Zm0-340Z"/></svg>
     <div class="flex flex-col">
       <p class="text-md">{{ participant.name }}</p>
-      <p class="text-sm text-zinc-400">{{ participant.fileName }}</p>
+      <p class="text-sm text-zinc-600">{{ participant.fileName }}</p>
     </div>
   </div>
 {% endfor %}
 </div>
 
-{:.mb-10 .dark:border-base-100}
 ___
 
+## Followup Survey
 
-{:.mb-5 .text-2xl .dark:text-white .leading-normal}
-Foillowup Survey
-
-{:.text-xl .mb-10}
 Unable to share to respect participant policy and NDA agreements, but the sessions were recorded and documented.
 
 <div>
   {% for followupSurvey in page.followupSurvey %}            
-  <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20">
+  <div class="card bg-base-100 dark:bg-zinc-900 shadow-2xl md:mx-auto mb-10 last:mb-20 not-prose">
     <div class="card-body">
       <p class="text-2xl basis-1/2 dark:text-white mb-3">{{ followupSurvey.question }}</p>
       <p class="uppercase tracking-widest mb-10 text-sm text-zinc-500">5 Responses</p>
