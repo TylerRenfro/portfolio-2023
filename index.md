@@ -13,4 +13,5 @@ introLineThree: Usability nerd
     {% include homepage/research-artifacts.html %}        
   </div>
   {% include homepage/portfolio.html %}    
+  {% include global/footer.html %}    
 </div>

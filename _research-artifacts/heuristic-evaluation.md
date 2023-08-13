@@ -409,4 +409,23 @@ Add the contact page link to the primary navigation bar and on that page list ou
 Another solution to get users who need help quickly would be to add a chatbot that queues requests to a real person. This would help users who want immediate answers and don’t have time to fill out a
 form and wait for a response.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-2.jpg "an image title"){:.mb-10 .w-full}
+![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-2.jpg "an image title"){:.mb-20 .w-full}
+
+{:.text-4xl .md:text-5xl .lg:text-6xl .mb-5 .dark:text-white}
+## Conclusion
+
+{:.text-xl .mb-5}
+In closing, this report described the usability method of Heuristic Evaluation as well as the
+findings from a Heuristic Evaluation conducted at Pratt Institute’s School of Information
+and Library Science on The Pace University Library’s website. Ultimately, there were five
+individual usability problems identified. Of the five, one was deemed a “major issue”; three
+a “minor issue”; and one a “cosmetic problem”. This resulted in four actionable redesign
+recommendations:
+
+{:.list-decimal .list-inside .leading-relaxed .text-lg .mb-10 .opacity-75 .prose}
+1. Rename “Reference Services” and “Reference Help” to “Research
+Help”
+2. Top Navigation Bar Should be Removed
+3. Homepage Navigation Menu Should be Throughout the Library’s
+Website
+4. Database Pages Should Open Consistently
