@@ -4,28 +4,28 @@ URL: './heuristic-evaluation'
 ---
 ## Overview
 
-The following document is a heuristic evaluation of texasdebrazil.com, a website that allows users to make reservations, order delivery/pickup, browse menu options, and find locations. The analysis includes an evaluation of the Nielson 10 usability heuristics of interface design.
+Doing a heuristic evaluation helps identify design problems in the user interface. For texasebrazil.com, the evaluation was judged in comparison to high-level usability guidelines known as the Nielson 10 usability heuristics.
 
 {:.font-semibold}
 ## Usability principles evaluated:
 
 1. Visibility of System Status
-2. Match Between the System & the Real World
-3. User Control & Freedom
-4. Maintain Consistency & Adhere to Standards
-5. Error Prevention
-6. Recognition Rather than Recall
-7. Flexibility & Efficiency of Use
-8. Aesthetic & Minimalist Design
-9. Help & Documentation
-10. Help Users Recognize, Diagnose, & Recover from Errors
+2. Match between the system and the real world
+3. User control and freedom
+4. Maintain consistency and adhere to standards
+5. Error prevention
+6. Recognition rather than recall
+7. Flexibility and efficiency of use
+8. Aesthetic and minimalist design
+9. Help and documentation
+10. Help users recognize, diagnose, and recover from Errors
 
 {:.dark:text-white}
 ## Usability Tasks to Help Discovery
 
-To help discover where the usability heuristics overlap with the user’s journey, I performed some tasks that I thought users may wish to do on the website. While performing these tasks, I took notes and outlined usability heuristic successes and failures along with possible solutions.
+To help uncover design issues that overlap with the user’s journey, tasks were created based on what users are likely to do on the website.
 
-1. Make a reservation at the Denver location for two guests, this Saturday @ 7:00 p.m.
+1. Make a reservation at the Denver location for a party of two this Saturday @ 7:00 p.m.
 2. Submit an online order of any menu item for delivery.
 3. Find one vegetarian menu item and another that is gluten-free.
 4. Find the location nearest to you and contact them for a question.
@@ -38,13 +38,13 @@ To help discover where the usability heuristics overlap with the user’s journe
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-Withholding information about the system. When selecting a date and time for a reservation, there is no indication of the restaurant's business status—open or closed.
+When selecting a date and time for a reservation, there is no indication of the restaurant's business status—open or closed. Withholding information about the system violates this principal. 
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-1.jpg "an image title")
 
@@ -61,11 +61,6 @@ Following the journey of making a reservation, the third-party tool OpenTable do
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-3.jpg "an image title")
 
-When confirming the reservation, there’s a banner at the top with a timer informing users that
-their reservation can only be held for so long.
-
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-4.jpg "an image title")
-
 # #2 Match Between the System & the Real World
 
 The design should speak the users’ language. Use words, phrases, and concepts familiar to the user, rather than internal jargon. Follow real-world conventions, making information appear in a natural and logical order.
@@ -73,7 +68,7 @@ The design should speak the users’ language. Use words, phrases, and concepts 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
@@ -85,7 +80,7 @@ While most things are named and labeled correctly on the website for Texas de Br
 
 ## Suggestion
 
-Change the name of the service from “Group Dining” to “Catering”. An easy fix, but it also makes the service consistent
+Change the name of the service from “Group Dining” to “Catering”. An easy fix, but it also makes the service consistent.
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
@@ -110,7 +105,7 @@ Users often perform actions by mistake. They need a clearly marked “emergency 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
@@ -130,7 +125,7 @@ website offers.
 {:.bg-emerald-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
-Overall the website navigation and structure support user control and freedom when it comes to browsing the site. The consistent top-level navigation items make it easy to completely exit the page to go somewhere else or go back to the previous state.
+Overall the website navigation and structure support user control and freedom when it comes to browsing the site. The consistent top-level navigation items make it easy to exit the page to go somewhere else or go back to the previous state.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-3.jpg "an image title")
 
@@ -145,7 +140,7 @@ Users should not have to wonder whether different words, situations, or actions 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
@@ -165,7 +160,7 @@ Invest in the software. Texas de Brazil likely has little to no control over muc
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-External Consistency. The website has unique branded UI components that do not match what users see on other websites. While this is mostly okay, conventional UI components would have been better. 
+External Consistency. The website has unique branded UI components that do not match what users see on other websites. While this is mostly okay, conventional UI components would have been better.
 
 <div class="flex flex-col md:flex-row gap-4 mb-10 items-center">
     <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-3.jpg">
@@ -189,18 +184,18 @@ The biggest violation of this principle is on the locations page. There’s a la
 
 # #5 Error Prevention
 
-Users should not have to wonder whether different words, situations, or actions mean the same thing. Follow platform and industry conventions.
+Good error messages are important, but the best designs carefully prevent problems from occurring in the first place. Either eliminate error-prone conditions or check for them and present users with a confirmation option before they commit to the action.
 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-The default selected restaurant location does not consider where users are located. This is a problem because it’s easy to start the reservation process for a date and time at the wrong locatio
+The default selected restaurant location does not consider where users are located. This is a problem because it’s easy to start the reservation process for a date and time at the wrong location.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-1.jpg "an image title")
 
@@ -222,7 +217,7 @@ Minimize the user’s memory load by making elements, actions, and options visib
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
@@ -238,12 +233,12 @@ Without doing an entire menu redesign, a solution could be to keep the names of 
 
 # #7 Flexibility & Efficiency of Use
 
-Shortcuts — hidden from novice users — may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
+Shortcuts—hidden from novice users—may speed up the interaction for the expert user such that the design can cater to both inexperienced and experienced users. Allow users to tailor frequent actions.
 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
@@ -264,13 +259,13 @@ Interfaces should not contain information which is irrelevant or rarely needed. 
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-There are multiple violations of distracting design that take focus away from users. The biggest problem is the background video on the home. The constant movement naturally draws attention to the video instead of the form for making a reservation.
+There are multiple violations of distracting design that take focus away from users. The biggest problem is the background video on the home page. The constant movement naturally draws attention to the video instead of the form for making a reservation.
 
 Another concern is readability—text is illegible because of the design aesthetics. The site contains a large amount of low-contrast text that is difficult to read.
 
@@ -288,15 +283,15 @@ Error messages should be expressed in plain language (no error codes), precisely
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-emerald-100 .text-emerald-900 .dark:bg-emerald-500/10 .dark:text-emerald-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
-This is something that texasdebrazil.com demonstrates consistent success in. Moments that stand out the most include resolution instructions on error notifications, requiring correctly formatted information on the mailing sign-up form, and showing time slot availability status on the reservation form.
+This is something that texasdebrazil.com demonstrates consistent success in. Moments that stand out include: error notifications, requiring correct formatted information, and showing availability statuses.
 
-Another example is the form for making a reservation. If time slots are unavailable, they are visually disabled, and the UI suggests other available times close to your reservation. If the day is completely unavailable like a holiday, there is a message for that too.
+Another example is the form for making a reservation. If time slots are unavailable, they are visually disabled, and the UI suggests other available times close to your reservation.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-9-img-1.jpg "an image title")
 
@@ -307,13 +302,13 @@ It’s best if the system doesn’t need any additional explanation. However, it
 ___
 
 <div class="not-prose">
-  <p class="uppercase tracking-widest mt-10 mb-5 text-md opacity-75">Findings</p>
+  <p class="uppercase tracking-widest my-5 text-xs md:text-sm opacity-75">Findings</p>
 </div>
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-When searching for dietary restrictions, no information was available on the menu. However, at the bottom of the page in the footer, there is a tool for filtering menu items by dietary restrictions.
+When searching for dietary restrictions, no information is found on the menu. However, at the bottom of the page in the footer, there is a tool for filtering menu items by dietary restrictions.
 
 ## Suggestions
 
@@ -324,26 +319,26 @@ Make the allergy and nutrition tool more prominent on the menu page. Additionall
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
 
-It’s hard for users to get help. Users have no quick and efficient way to contact the restaurants. Even on the contact page, the only way to reach out is to fill out a form. This process is not fast enough for users with questions that need immediate answers. 
+It’s hard for users to get help. Users have no quick and efficient way to contact the restaurants. Even on the contact page, the only way to reach out is to fill out a form. This process is not fast enough for users with questions that demand immediate answers. 
 
-There is contact information available for each location on the website. However, finding that information is a little challenging. To find that info, users need to first go to the locations page, find the location pin on the map, click a location, and finally, a page with all the location information will show.
+There is contact information available for each location on the website. However, finding that information is a little challenging.
 
 ## Suggestion
 
-Add the contact page link to the primary navigation bar and on that page list out the locations by the state with their contact information. It may seem overwhelming since there are so many locations, but there are clever ways to condense this, and even then at least it’s easily available for users. Whereas today it is almost completely hidden.
+Add the contact page link to the primary navigation bar and on that page list out the locations by the state with their contact information.
 
-Another solution to get users who need help quickly would be to add a chatbot that queues requests to a real person. This would help users who want immediate answers and don’t have time to fill out a
-form and wait for a response.
+Another solution to get users who need help quickly would be to add a chatbot that queues requests to a real person.
 
 ![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-2.jpg "an image title")
 
 # Conclusion
 
-In closing, this report described the usability method of Heuristic Evaluation as well as the findings from a Heuristic Evaluation conducted at Pratt Institute’s School of Information and Library Science on The Pace University Library’s website. Ultimately, there were five individual usability problems identified. Of the five, one was deemed a “major issue”; three a “minor issue”; and one a “cosmetic problem”. This resulted in four actionable redesign recommendations:
+Ultimately, there were five individual usability problems identified. Of the five, one was deemed a “major issue”; three a “minor issue”; and one a “cosmetic problem”. This resulted in four actionable redesign recommendations:
 
-1. Rename “Reference Services” and “Reference Help” to “Research
-Help”
-2. Top Navigation Bar Should be Removed
-3. Homepage Navigation Menu Should be Throughout the Library’s
-Website
-4. Database Pages Should Open Consistently
+1. Rename “Group Dining” to “Catering”.
+2. Redesign the menu to follow the form and function of a dine-in menu.
+3. Adjust the location search controls and move them to the top of the page.
+4. Introduce rewards for returning users
+5. Adjust component aesthetics to pass AA compliance
+6. Add vegetarian and gluten-free labels on the menu
+7. Add a chatbot that queues to a real person

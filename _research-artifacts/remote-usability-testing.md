@@ -334,3 +334,14 @@ Unable to share to respect participant policy and NDA agreements, but the sessio
   </div>
   {% endfor %}
 </div>
+
+# Conclusion
+
+In closing, this report described the usability method of Heuristic Evaluation as well as the findings from a Heuristic Evaluation conducted at Pratt Institute’s School of Information and Library Science on The Pace University Library’s website. Ultimately, there were five individual usability problems identified. Of the five, one was deemed a “major issue”; three a “minor issue”; and one a “cosmetic problem”. This resulted in four actionable redesign recommendations:
+
+1. Rename “Reference Services” and “Reference Help” to “Research
+Help”
+2. Top Navigation Bar Should be Removed
+3. Homepage Navigation Menu Should be Throughout the Library’s
+Website
+4. Database Pages Should Open Consistently

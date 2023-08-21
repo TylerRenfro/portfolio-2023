@@ -17,18 +17,19 @@
         <div class="grid grid-cols-12 gap-4">
           <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
                 <p class="uppercase tracking-widest text-xs md:text-sm text-zinc-500 dark:text-zinc-500">{{ page.caption }}</p>    
-                <h1 class="leading-tight text-6xl dark:text-white font-medium my-3 md:my-5">{{ page.title }}</h1>                                
+                <h1 class="leading-tight text-4xl md:text-5xl lg:text-6xl dark:text-white font-medium my-3 md:my-5">{{ page.title }}</h1>                                
             </div>
         </div>
         <div class="grid grid-cols-12 gap-4 my-5">
           <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
-              <p class="text-lg md:text-xl prose max-w-full pl-7 border-l-4 border-red-600 dark:border-red-400 not-prose"><span class="font-semibold text-red-600 dark:text-red-400">Summary:</span> {{ page.summary }}</p>
+              <p class="text-md md:text-xl prose max-w-full pl-7 border-l-4 border-red-600 dark:border-red-400 not-prose"><span class="font-semibold text-red-600 dark:text-red-400">Summary:</span> {{ page.summary }}</p>
               <hr class="dark:border-base-100 w-full flex mt-[4rem]">
-              <div class="max-w-full prose prose-h1:text-3xl prose-h1:md:text-4xl prose-h1:lg:text-5xl prose-h1:leading-tight prose-h1:sm:leading-tight prose-h1:md:leading-tight prose-h1:lg:leading-tight prose-h1:font-normal prose-h1:mt-20 prose-h1:mb-3 prose-h1:dark:text-white prose-h2:text-2xl prose-h2:md:text-3xl prose-h2:lg:text-3xl prose-h2:font-normal prose-h2:dark:text-white prose-p:text-xl prose-p:leading-relaxed prose-li:text-xl prose-li:leading-loose prose-img:w-full">
+              <div class="max-w-full prose prose-h1:text-2xl prose-h1:md:text-3xl prose-h1:lg:text-5xl prose-h1:leading-tight prose-h1:sm:leading-tight prose-h1:md:leading-tight prose-h1:lg:leading-tight prose-h1:font-normal prose-h1:mt-20 prose-h1:mb-3 prose-h1:dark:text-white prose-h2:text-xl prose-h2:md:text-2xl prose-h2:lg:text-3xl prose-h2:font-normal prose-h2:dark:text-white prose-p:text-md prose-p:md:text-xl prose-p:leading-relaxed prose-li:text-md prose-li:md:text-xl prose-li:leading-relaxed prose-img:w-full prose-hr:m-0">
                 {{ content }}
               </div>                              
           </div>
         </div>
-    </div>        
+        {% include global/footer.html %}           
+    </div>    
   </body>
 </html>
