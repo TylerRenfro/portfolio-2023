@@ -46,20 +46,20 @@ Issue
 
 When selecting a date and time for a reservation, there is no indication of the restaurant's business status—open or closed. Withholding information about the system violates this principal. 
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-1.jpg "an image title")
+![Reservation form]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-1.jpg "Reservation form")
 
 ## Suggestions
 
 Subtext communicating the restaurant hours and status could help users start the reservation process with times that align with business hours.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-2.jpg "an image title")
+![sketch of reservation form]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-2.jpg "Sketch of reservation form")
 
 {:.bg-emerald-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 Following the journey of making a reservation, the third-party tool OpenTable does a lot right. If the selected reservation isn’t available, the app communicates unavailable times with disabled states and suggests other time slots.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-3.jpg "an image title")
+![third-party reservation tool]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-1-img-3.jpg "Third-party reservation tool")
 
 # #2 Match Between the System & the Real World
 
@@ -76,7 +76,7 @@ Issue
 
 While most things are named and labeled correctly on the website for Texas de Brazil, there is one item that could be better—group dining. The misnaming can create confusion about what the service is. Users may wonder if this is for large groups trying to make a reservation when it's known as catering and should be named accordingly.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-1.jpg "an image title")
+![website navigation]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-1.jpg "Website navigation")
 
 ## Suggestion
 
@@ -89,14 +89,14 @@ The form and function of the menu do not match how people use a menu in the real
 
 In life, menus are much more informative and designed for reading to help people make decisions. Menus are scanned from top to bottom with names of items, prices, descriptions, and photos.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-2.jpg "an image title")
+![website food menu]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-2.jpg "Website food menu")
 
 
 ## Suggestions
 
 Implement a simple and traditional food menu that includes pricing information, photos, and descriptions.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-3.jpg "an image title")
+![food menu sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-2-img-3.jpg "Food menu")
 
 # #3 User Control & Freedom
 
@@ -113,25 +113,25 @@ Issue
 
 Since Texas de Brazil relies on third-party software for ordering pickup or delivery, the journey is a separate experience. As a result, if a user changes their mind about ordering, or wants to make a reservation in person instead, they can't. To reset the journey, users must click the back button in the browser or the logo in the main navigation.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-1.jpg "an image title")
+![reservation form contact info]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-1.jpg "reservation form contact info")
 
 ## Suggestions
 
 Replicating the main navigation of the website with the reservations/online ordering pages could give users more flexibility. With this change, users could easily switch to do anything the
 website offers.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-2.jpg "an image title")
+![reservation form sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-2.jpg "Reservation form sketch")
 
 {:.bg-emerald-100 .text-green-900 .dark:bg-green-500/10 .dark:text-green-300 .py-3 .px-5 .font-medium .mb-5}
 Success
 
 Overall the website navigation and structure support user control and freedom when it comes to browsing the site. The consistent top-level navigation items make it easy to exit the page to go somewhere else or go back to the previous state.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-3.jpg "an image title")
+![website navigation]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-3.jpg "Website navigation")
 
 Even on the nested pages, there is a supporting UI component that takes users back to the previous page.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-4.jpg "an image title")
+![contact information]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-3-img-4.jpg "Contact information")
 
 # #4 Maintain Consistency & Adhere to Standards
 
@@ -149,8 +149,8 @@ Issue
 Internal consistency suffers from relying on third-party software to build the online systems for Texas de Brazil. The UI from the website design doesn’t match the UI of components you see for making a reservation and ordering online.
 
 <div class="flex flex-col md:flex-row gap-4 mb-10 items-center">
-    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-1.jpg">
-    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-2.jpg">
+    <img class="w-full h-full" alt="Reservation form" title="Rservation form" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-1.jpg">
+    <img class="w-full h-full" alt="Third-party reservation tool" title="Third-party reservation tool" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-2.jpg">
 </div>
 
 ## Suggestion
@@ -163,19 +163,19 @@ Issue
 External Consistency. The website has unique branded UI components that do not match what users see on other websites. While this is mostly okay, conventional UI components would have been better.
 
 <div class="flex flex-col md:flex-row gap-4 mb-10 items-center">
-    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-3.jpg">
-    <img class="w-full h-full" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-4.jpg">
+    <img class="w-full h-full" alt="contact form comparison" title="Contact form comparison" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-3.jpg">
+    <img class="w-full h-full" alt="contact form comparison" title="Contact form comparison" src="{{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-4.jpg">
 </div>
 
 Comparing it to common UI form elements, it’s not drastically different. However, it is enough to make someone think and take a look at the form to realize what it is.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-5.jpg "an image title")
+![desserts in food menu]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-5.jpg "Desserts in food menu")
 
 Some areas on the website start to get questionable if they are buttons or not.
 
 The biggest violation of this principle is on the locations page. There’s a large map with all the locations spread out, but unfortunately, the form for filtering and searching is at the bottom of the page. For most searching interfaces, controls are placed at the top.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-6.jpg "an image title")
+![location map]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-4-img-6.jpg "Location map")
 
 ## Suggestions
 
@@ -197,18 +197,18 @@ Issue
 
 The default selected restaurant location does not consider where users are located. This is a problem because it’s easy to start the reservation process for a date and time at the wrong location.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-1.jpg "an image title")
+![reservation form]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-1.jpg "Reservation form")
 
 
 ## Suggestions
 
 One solution could be requesting a user’s location and populating the default location to be the one closest to the user. 
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-2.jpg "an image title")
+![allow location modal sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-2.jpg "Allow location modal sketch")
 
 Another could be to leave the select blank and allow users to select a location before starting a reservation.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-3.jpg "an image title")
+![choose location select input]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-5-img-3.jpg "Choose location select input")
 
 # #6 Recognition Rather than Recall
 
@@ -225,7 +225,7 @@ Issue
 
 The names of food items are only available by request. Users must recall menu items from the previous page and show the actual menu item name one at a time from clicking a photo.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-6-img-1.jpg "an image title")
+![food menu]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-6-img-1.jpg "Food menu")
 
 ## Suggestion
 
@@ -250,7 +250,7 @@ Lack of accelerators for repetitious usage. Texas de Brazil doesn’t have much 
 
 Enhance the experience for returning online users by supporting account sign-up. By providing account information, returning users could save previous orders and payment info for faster checkouts and smoother transactions.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-7-img-1.jpg "an image title")
+![order confirmation sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-7-img-1.jpg "Order confirmation sketch")
 
 # #8 Aesthetic & Minimalist Design
 
@@ -269,7 +269,7 @@ There are multiple violations of distracting design that take focus away from us
 
 Another concern is readability—text is illegible because of the design aesthetics. The site contains a large amount of low-contrast text that is difficult to read.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-8-img-1.jpg "an image title")
+![website navbar]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-8-img-1.jpg "Website navbar")
 
 ## Suggestions
 
@@ -293,7 +293,7 @@ This is something that texasdebrazil.com demonstrates consistent success in. Mom
 
 Another example is the form for making a reservation. If time slots are unavailable, they are visually disabled, and the UI suggests other available times close to your reservation.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-9-img-1.jpg "an image title")
+![choose reservation date]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-9-img-1.jpg "Choose reservation date")
 
 # #10 Help & Documentation
 
@@ -314,7 +314,7 @@ When searching for dietary restrictions, no information is found on the menu. Ho
 
 Make the allergy and nutrition tool more prominent on the menu page. Additionally, vegetarian and gluten-free labels on the menu would go a long way.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-1.jpg "an image title")
+![food menu sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-1.jpg "Food menu sketch")
 
 {:.bg-red-100 .text-red-900 .dark:bg-red-500/10 .dark:text-red-300 .py-3 .px-5 .font-medium .mb-5}
 Issue
@@ -329,11 +329,11 @@ Add the contact page link to the primary navigation bar and on that page list ou
 
 Another solution to get users who need help quickly would be to add a chatbot that queues requests to a real person.
 
-![an image alt text]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-2.jpg "an image title")
+![contact us sketch]({{ site.baseurl }}/images/heuristic-evaluation/heuristic-10-img-2.jpg "Contact us sketch")
 
 # Conclusion
 
-Ultimately, there were five individual usability problems identified. Of the five, one was deemed a “major issue”; three a “minor issue”; and one a “cosmetic problem”. This resulted in four actionable redesign recommendations:
+Ultimately, there were twelve individual usability problems identified. Of the twelve, two were deemed a “major issue”; two a “minor issue”; and three a “cosmetic problem”. This resulted in seven actionable redesign recommendations:
 
 1. Rename “Group Dining” to “Catering”.
 2. Redesign the menu to follow the form and function of a dine-in menu.
