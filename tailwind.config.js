@@ -15,7 +15,7 @@ module.exports = {
       'body': ['"Work Sans"']
     },
   },
-  plugins: [require('@tailwindcss/typography'), require("daisyui")],
+  plugins: [require('@tailwindcss/typography'), require("daisyui"), require('tailwindcss'), require('autoprefixer')],
   daisyui: {
     themes: ['light', 'dark'],
     
