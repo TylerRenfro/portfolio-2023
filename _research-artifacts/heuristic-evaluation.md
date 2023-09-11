@@ -4,7 +4,7 @@ URL: './heuristic-evaluation'
 ---
 ## Overview
 
-Doing a heuristic evaluation helps identify design problems in the user interface. For texasebrazil.com, the evaluation was judged in comparison to high-level usability guidelines known as the Nielson 10 usability heuristics.
+Heuristic evaluations help identify design problems in the user interface. For texasebrazil.com, the evaluation was judged in comparison to high-level usability guidelines known as the Nielson 10 usability heuristics.
 
 {:.font-semibold}
 ## Usability principles evaluated:
