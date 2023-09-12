@@ -5,6 +5,7 @@ jobTitle: 'UX Design'
 
 plugins:
   - jekyll-postcss
+  - jekyll-postcss-v2
 
 postcss:
   cache: false
