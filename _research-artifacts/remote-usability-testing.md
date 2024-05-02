@@ -44,7 +44,7 @@ usabilityTasks:
     - name: "Manually add the Caregivers of Service in Bloom."      
     - name: "You have been assigned with onboarding a new provider, […] Manually add the new provider account and input their information using the new web portal."      
 followupSurvey:
-  - question: How did you feel about using the software used today for onboarding Payright accounts?
+  - question: How did you feel about using the software used today for onboarding […] accounts?
     response1: "A breath of fresh air. It showed us what could be. I thought it was easy to use, had a great flow, and was an easy way to document all the information needed."
     response2: "After learning where things were located initially, it felt very comfortable to use. Everything I tested was located in places that made sense and had a good flow to them." 
     response3: "It was very user-friendly."
@@ -57,7 +57,7 @@ followupSurvey:
     response4: "Good. It seems very easy to use."
     response5: "I would feel more confident If I could use the tools more before I could say if it would be better than what we have right now. As a whole and only using it once is does seem good."
   - question: How would having access to this software impact your day-to-day responsibilities?
-    response1: "Currently, things are extremely drawn out. Because the potential new software has everything stored in one place and we allow the customer to edit information, it would allow us to onboard a provider, clients and caregivers quicker. This means we could onboard more customers in the time it takes to currently onboard one. This would help PayRight be able to grow."
+    response1: "Currently, things are extremely drawn out. Because the potential new software has everything stored in one place and we allow the customer to edit information, it would allow us to onboard a provider, clients and caregivers quicker. This means we could onboard more customers in the time it takes to currently onboard one. This would help […] be able to grow."
     response2: "It is difficult to say this early on in the development, as the initial pieces being developed don't cover any of my job responsibilities. However, I do believe that once completed, this will have a large impact on my day-to-day routine, and will save me a lot of time doing manual processes that should be automated."
     response3: "Frees up some time. Not as much clicking around."
     response4: "It will greatly improve my day-to-day activities. Currently, we are working with a dinosaur system, so hopefully, this will bring us improvements that will make us more competitive."
