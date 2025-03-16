@@ -1,6 +1,6 @@
 ---
-previewName: Designing for systems
-URL: './designing-for-systems'
+previewName: Designing for Public Transit
+URL: './designing-for-public-transit'
 thumbnail: "stl-metro-thumbnail.jpg"
 ---
 

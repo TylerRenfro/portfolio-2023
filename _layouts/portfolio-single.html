@@ -17,10 +17,10 @@
       {% include navbar.html %}
       <div class="grid grid-cols-12 gap-4 md:justify-items-center md:text-center items-center content-center justify-center mb-10 md:mb-20">
         <div class="col-span-12 md:col-start-2 md:col-span-10">
-          <p class="uppercase tracking-widest text-xs md:text-sm text-zinc-500 dark:text-zinc-500">{{ page.caption }}</p>
+          <p class="uppercase tracking-widest text-xs md:text-sm {{ page.project-color }} dark:{{ page.project-color}}">{{ page.caption }}</p>
           <h1 class="text-3xl md:text-4xl lg:text-6xl dark:text-white font-medium my-3 md:my-10">{{ page.title }}</h1>
           <p class="text-lg md:text-xl mb-10">{{ page.description }}</p>
-          <svg class="{{page.border-fill}} self-center md:mx-auto" width="150" height="20" viewBox="0 0 198 20"
+          <svg class="fill-{{ page.project-color }} dark:fill-{{ page.project-color }} self-center md:mx-auto" width="150" height="20" viewBox="0 0 198 20"
             xmlns="http://www.w3.org/2000/svg">
             <path fill-rule="evenodd" clip-rule="evenodd"
               d="M15.8481 4C12.0621 4 7.94973 6.18182 3.51228 11.3089C2.78942 12.144 1.52637 12.2351 0.691179 11.5123C-0.144015 10.7894 -0.235079 9.52634 0.487781 8.69115C5.28234 3.15151 10.402 0 15.8481 0C21.2942 0 26.4138 3.15151 31.2084 8.69115C35.6458 13.8182 39.7582 16 43.5441 16C47.3301 16 51.4425 13.8182 55.8799 8.69115L57.3922 10L55.8799 8.69114C60.6745 3.15152 65.7941 0 71.2402 0C76.6863 0 81.8059 3.15152 86.6005 8.69115C91.038 13.8182 95.1504 16 98.9363 16C102.722 16 106.835 13.8182 111.272 8.69115C116.067 3.15151 121.186 0 126.632 0C132.079 0 137.198 3.15151 141.993 8.69115C146.43 13.8182 150.542 16 154.328 16C158.114 16 162.226 13.8182 166.664 8.69115C171.458 3.15147 176.578 0 182.025 0C187.471 0 192.591 3.15147 197.385 8.69115C198.108 9.52634 198.017 10.7894 197.182 11.5123C196.347 12.2351 195.084 12.144 194.361 11.3089C189.923 6.18186 185.811 4 182.025 4C178.238 4 174.126 6.18186 169.688 11.3089C164.894 16.8485 159.774 20 154.328 20C148.882 20 143.763 16.8485 138.968 11.3089C134.531 6.18182 130.418 4 126.632 4C122.846 4 118.734 6.18182 114.297 11.3089C109.502 16.8485 104.382 20 98.9363 20C93.4902 20 88.3706 16.8485 83.576 11.3089L85.0882 10L83.576 11.3089C79.1385 6.18182 75.0261 4 71.2402 4C67.4543 4 63.3419 6.18182 58.9044 11.3089C54.1099 16.8485 48.9903 20 43.5441 20C38.098 20 32.9784 16.8485 28.1839 11.3089C23.7464 6.18182 19.634 4 15.8481 4Z" />

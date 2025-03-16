@@ -1,7 +1,7 @@
 url: 'https://www.tylerrenfro.com'
 baseurl: ''
 title: 'Tyler Renfro'
-jobTitle: 'UX Design'
+jobTitle: 'Product Designer'
 
 plugins:
   - jekyll-postcss-v2
@@ -12,6 +12,8 @@ postcss:
 collections:
   portfolio:
     order:
+      - uswds-design-system.md
+      - payflow.md
       - stl-metro.md
       - payright.md
       - green-dining-finder.md
