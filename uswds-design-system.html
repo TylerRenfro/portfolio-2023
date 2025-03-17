@@ -2,17 +2,31 @@
 layout: portfolio-single
 permalink: /uswds-design-system/
 title: "Creating a Design System"
+caption: "United States Web Design System"
 description: "Building the United States Web Design System from Scratch."
-border-fill: "fill-blue-500 dark:fill-blue-400"
+squiggle-color: "fill-blue-500 dark:fill-blue-400"
+caption-color: "text-blue-500 dark:text-blue-400"
+figmaExport:
+    - name: accordion
+    - name: alert
+    - name: banner
+    - name: card
+    - name: checkbox
+    - name: combo-box
+    - name: file-input
+    - name: icon
+    - name: input-mask
+    - name: radio-button
+    - name: segmented-button-group
+    - name: step-indicator
+
 ---
 
 <div class="grid grid-cols-12 gap-4 mb-10">
     <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <div class="self-center h-full flex">
-            [ intro.jpg ]
-        </div>        
+        <img class="w-full self-center" src="/images/homepage/uswds-thumbnail.jpg">
     </div>
-</div>
+</div>  
 <div class="grid grid-cols-12 gap-4 my-20">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">
         <p class="mb-10 leading-relaxed text-md md:text-xl">Before the <a class="link text-blue-500 dark:text-blue-400" href="https://www.figma.com/community/file/1440921849343185329/uswds-design-kit-beta" target="_blank">official USWDS Figma library</a> was released, no proper design system existed for the framework. Sure, there were a few community files, but they either lacked components or had inaccuracies in the elements.</p>        
@@ -25,13 +39,6 @@ border-fill: "fill-blue-500 dark:fill-blue-400"
         </ul>
     </div>
 </div> 
-<div class="grid grid-cols-12 gap-4 mb-10">
-    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <div class="self-center h-full flex">
-            [ preview.jpg ]
-        </div>        
-    </div>
-</div>
 <div class="grid grid-cols-12 gap-4 my-20">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
         <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Setting Up the Theme</h1>
@@ -40,11 +47,14 @@ border-fill: "fill-blue-500 dark:fill-blue-400"
 </div> 
 <div class="grid grid-cols-12 gap-4 mb-10">
     <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <div class="self-center h-full flex">
-            [ design-tokens.jpg ]
-        </div>        
+        <img class="w-full self-center" src="/images/uswds/theme-color-tokens.jpg">
     </div>
-</div>
+</div> 
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <img class="w-full self-center" src="/images/uswds/system-color-tokens.jpg">
+    </div>
+</div> 
 <div class="grid grid-cols-12 gap-4 my-20">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
         <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Framework Based Variants</h1>
@@ -53,34 +63,39 @@ border-fill: "fill-blue-500 dark:fill-blue-400"
 </div> 
 <div class="grid grid-cols-12 gap-4 mb-10">
     <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
-        <div class="self-center h-full flex">
-           [ variant-inspection.jpg ]
-        </div>        
+        <img class="w-full self-center" src="/images/uswds/variant-inspect.jpg">
     </div>
 </div>
+<div class="grid grid-cols-12 gap-4 mb-10">
+    <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
+        <img class="w-full self-center" src="/images/uswds/docs-example.jpg">
+    </div>
+</div> 
 <div class="grid grid-cols-12 gap-4 my-20">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
         <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Putting in the Hard Work</h1>
         <p class="mb-10 leading-relaxed text-md md:text-xl">With base variables established and naming conventions standardized, all that was left was working top to bottom carefully, and meticulously designing every single component and the variants.</p>        
     </div>
 </div>
+{% for export in page.figmaExport %}  
 <div class="grid grid-cols-12 gap-4 mb-10">
     <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
         <div class="self-center h-full flex">
-           [ variant-inspection.jpg ]
+            <img class="w-full self-center" src="/images/uswds/{{ export.name }}.jpg">
         </div>        
     </div>
 </div>
+{% endfor %}
 <div class="grid grid-cols-12 gap-4 my-20">
     <div class="col-span-12 lg:col-start-2 lg:col-span-10 xl:col-start-3 xl:col-span-8 flex flex-col">        
         <h1 class="text-2xl md:text-3xl lg:text-5xl dark:text-white mb-5">Final Thoughts</h1>
-        <p class="mb-10 leading-relaxed text-md md:text-xl">Building this design system out was a massive effort, especially as an individual. Overall, this project did boost efficiency within design teams since they didn't have to create custom components when the community files came up short. Additionally, teams became more harmonious as they began sharing the same terminology for components, which didn't exist previously.</p>        
+        <p class="mb-10 leading-relaxed text-md md:text-xl">Building this design system out was a massive effort, especially as an individual. Overall, this project did boost efficiency within design teams since they didn't have to create custom components when the community files came up short. Additionally, teams became more harmonious as they began sharing the same terminology for components, which was a common pain point previously.</p>        
     </div>
 </div>
 <div class="grid grid-cols-12 gap-4 mb-10">
     <div class="col-span-12 xl:col-start-2 xl:col-span-10 flex flex-col">
         <div class="self-center h-full flex">
-           [ variant-inspection.jpg ]
+            <img class="w-full self-center" src="/images/uswds/outro.jpg">
         </div>        
     </div>
 </div>

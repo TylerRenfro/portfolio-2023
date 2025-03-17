@@ -12,8 +12,8 @@ postcss:
 collections:
   portfolio:
     order:
-      - uswds-design-system.md
       - payflow.md
+      - uswds-design-system.md
       - stl-metro.md
       - payright.md
       - green-dining-finder.md
