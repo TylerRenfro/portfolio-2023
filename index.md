@@ -8,7 +8,7 @@ introLineThree: Typeface Enthusiast
 
 <div class="container mx-auto px-8 sm:px-4">   
   {% include navbar.html %}
-  <div class="grid grid-cols-12 gap-4 mb-10 md:mb-20 flex-wrap items-center">
+  <div class="grid grid-cols-12 gap-4 mb-10 md:mb-20 flex-wrap items-center pt-8 sm:pt-0">
     {% include homepage/about-me.html %}
   </div>
   {% include homepage/portfolio.html %}    
