@@ -1,0 +1,17 @@
+current directory: /Users/tylerrenfro/Sites/portfolio-2023/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/bin/ruby -I /System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0 -r ./siteconf20250408-2915-47bn4t.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tylerrenfro/Sites/portfolio-2023/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" clean
+
+current directory: /Users/tylerrenfro/Sites/portfolio-2023/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR="
+compiling porter.c
+compiling porter_wrap.c
+linking shared-object stemmer.bundle
+ld: warning: search path '/AppleInternal/Library/BuildRoots/d187755d-b9a3-11ef-83e5-aabfac210453/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.3.Internal.sdk/usr/local/lib' not found
+
+current directory: /Users/tylerrenfro/Sites/portfolio-2023/vendor/bundle/ruby/2.6.0/gems/fast-stemmer-1.0.2/ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 stemmer.bundle ./.gem.20250408-2915-4ilpws

@@ -21,7 +21,7 @@ collections:
   research-artifacts:
     order:
       - heuristic-evaluation.md
-      - qualitative-surveys.md      
+      - qualitative-surveys.md
       - remote-usability-testing.md
 
 
@@ -30,3 +30,6 @@ exclude:
   - postcss.config.js
   - tailwind.config.js
   - yarn.lock
+  - vendor
+  - Gemfile
+  - Gemfile.lock
